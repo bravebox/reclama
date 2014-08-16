@@ -1,0 +1,12 @@
+# Site settings
+title: Reclama
+email: bravebox@gmail.com
+description: "This is Reclama."
+baseurl: ""
+url: "http://www.reclama.nl"
+twitter_username: bravebox
+github_username:  bravebox
+
+# Build settings
+markdown: kramdown
+permalink: pretty

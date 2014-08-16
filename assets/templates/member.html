@@ -1,0 +1,61 @@
+<div id="reclama-member-overlay">
+	<div id="reclama-member-container" class="cf text-center">
+
+		<a class="member-close" href="#">
+			<span class="icon-cross"></span>
+		</a>
+
+		<div class="mc-body">
+			<div class="row col-md-12">
+				
+				<div class="wp-member-avatar" style="padding: 30px;">
+			    	<img alt="{{ member.name }}" src="{{ avatar }}">
+				</div>
+				
+				<h1 class="arrow">{{name}}</h1>
+				<p>{{ company_position }} at {{ company }}</p>
+				<p>{{{description}}}</p>
+				
+				<h3 class="arrow">Contact of follow {{name}}</h3>
+				<ul class="social-buttons">
+					{{#if facebook}}
+					<li>
+						<a class="social-btn" href="{{facebook}}" target="_blank">
+							<span class="icon-facebook"></span>
+						</a>
+					</li>
+					{{/if}}
+					{{#if twitter}}
+					<li>
+						<a class="social-btn" href="{{twitter}}" target="_blank">
+							<span class="icon-twitter"></span>
+						</a>
+					</li>
+					{{/if}}
+					{{#if google}}
+					<li>
+						<a class="social-btn" href="{{google}}" target="_blank">
+							<span class="icon-googleplus"></span>
+						</a>
+					</li>
+					{{/if}}
+					{{#if linkedin}}
+					<li>
+						<a class="social-btn" href="{{linkedin}}" target="_blank">
+							<span class="icon-linkedin"></span>
+						</a>
+					</li>
+					{{/if}}
+					{{#if behance}}
+					<li>
+						<a class="social-btn" href="{{behance}}" target="_blank">
+							<span class="icon-behance"></span>
+						</a>
+					</li>
+					{{/if}}
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
