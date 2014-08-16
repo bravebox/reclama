@@ -1232,12 +1232,15 @@
 		
 		.wp-team-member {
 			height: 380px;
-			.wp-member-avatar {
-				position: relative;
-				img {
-					margin: 20px auto;
-				}				
-			}
+			padding: 20px;
+		}
+		
+		.wp-member-avatar {
+			position: relative;
+			text-align: center;
+			img {
+				margin: 20px auto;
+			}				
 		}
 		
 		.wp-member-detail {
