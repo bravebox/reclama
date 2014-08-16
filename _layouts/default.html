@@ -15,7 +15,7 @@
 		{% include footer.html %}
 
 		<script>var reclama = [{% for member in site.data.people %} { "name": "{{ member.name }}", "avatar": "{{ member.avatar }}", "company": "{{ member.company }}", "company_url": "{{ member.company_url }}", "company_position": "{{ member.company_position }}", "company_logo": "{{ member.company_logo }}", "company_work": "{{ member.company_work }}", "twitter": "{{ member.twitter }}", "google": "{{ member.google }}", "behance": "{{ member.behance }}", "mail": "{{ member.mail }}", "description": "{{ member.description }}" }, {% endfor %} {}];</script>
-		<script src="assets/js/app.min.js"></script>
+		<script src="http://bravebox.github.io/reclama/assets/js/app.min.js"></script>
 
 	</body>
 </html>
