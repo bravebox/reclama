@@ -3,7 +3,4 @@
 // @codekit-prepend "lib/waypoints.min.js"
 // @codekit-prepend "lib/bootstrap.js"
 // @codekit-prepend "lib/handlebars.js"
-// @codekit-prepend "lib/jquery.cycle2.min.js"
-// @codekit-prepend "lib/jquery.cycle2.ie-fade.min.js"
-// @codekit-prepend "lib/jquery.cycle2.carousel.min.js"
 // @codekit-prepend "scripts.js"
