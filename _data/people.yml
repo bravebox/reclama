@@ -37,11 +37,24 @@
   mail: maarten@hexentric.nl
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
   
-- name: Mick Schouten <br/>en Linda Hirzmann
-  avatar: assets/people/bravebox-logo.jpg
+- name: Mick Schouten
+  avatar: assets/people/bravebox-mick-schouten.jpg
   company: Bravebox
   company_url: http://www.bravebox.nl
-  company_position: Front-end developer and creative
+  company_position: Front-end developer
+  company_logo: assets/people/bravebox.png
+  company_work: assets/people/company-work-empty.jpg
+  twitter: https://twitter.com/bravebox
+  google: https://plus.google.com/+MickSchouten
+  behance: https://www.behance.net/bravebox
+  mail: bravebox@gmail.com
+  description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
+  
+- name: Linda Hirzmann
+  avatar: assets/people/company-name.jpg
+  company: Bravebox
+  company_url: http://www.bravebox.nl
+  company_position: Designer
   company_logo: assets/people/bravebox.png
   company_work: assets/people/company-work-empty.jpg
   twitter: https://twitter.com/bravebox
@@ -131,19 +144,6 @@
 - name: Lody van Buul, Sven Engelsman <br/>en Chris Manintveld
   avatar: assets/people/company-name.jpg
   company: WOON Rotterdam
-  company_url: http://www.example.org
-  company_position: My position
-  company_logo: assets/people/company.png
-  company_work: assets/people/company-work-empty.jpg
-  twitter:
-  google:
-  behance:
-  mail:
-  description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
-  
-- name: Patrick Bonora
-  avatar: assets/people/company-name.jpg
-  company: Appeltje Z
   company_url: http://www.example.org
   company_position: My position
   company_logo: assets/people/company.png
