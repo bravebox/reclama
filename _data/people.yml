@@ -28,7 +28,7 @@
   avatar: assets/people/company-name.jpg
   company: Hexentric
   company_url: http://www.hexentric.nl
-  company_position: Front-end developer
+  company_position: front-end developer
   company_logo: assets/people/hexentric.png
   company_work: assets/people/company-work-empty.jpg
   twitter: 
@@ -41,7 +41,7 @@
   avatar: assets/people/bravebox-mick-schouten.jpg
   company: Bravebox
   company_url: http://www.bravebox.nl
-  company_position: Front-end developer
+  company_position: front-end developer
   company_logo: assets/people/bravebox.png
   company_work: assets/people/company-work-empty.jpg
   twitter: https://twitter.com/bravebox
@@ -54,7 +54,7 @@
   avatar: assets/people/company-name.jpg
   company: Bravebox
   company_url: http://www.bravebox.nl
-  company_position: Designer
+  company_position: designer
   company_logo: assets/people/bravebox.png
   company_work: assets/people/company-work-empty.jpg
   twitter: https://twitter.com/bravebox
