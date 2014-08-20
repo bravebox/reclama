@@ -3,8 +3,8 @@
   company: Digital Creative
   company_url: http://www.digitalcreative.nl
   company_position: designer
-  company_logo: http://bravebox.github.io/reclama/assets/people/digital-creative.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_logo: 
+  company_work: 
   twitter: https://twitter.com/...
   google: 
   behance: https://www.behance.net/ron-art
@@ -16,8 +16,8 @@
   company: creAmigo
   company_url: http://www.creamigo.nl/
   company_position: art director
-  company_logo: http://bravebox.github.io/reclama/assets/people/bravebox.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_logo: 
+  company_work: 
   twitter: https://twitter.com/paulbothof
   google: https://plus.google.com/100113115595426612853/
   behance: https://www.behance.net/paulb
@@ -30,7 +30,7 @@
   company_url: http://www.hexentric.nl
   company_position: front-end developer
   company_logo: http://bravebox.github.io/reclama/assets/people/hexentric.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter: 
   google: https://plus.google.com/111955064918985646629/posts/Abia1QDbZoh
   behance: 
@@ -42,8 +42,8 @@
   company: Bravebox
   company_url: http://www.bravebox.nl
   company_position: front-end developer
-  company_logo: http://bravebox.github.io/reclama/assets/people/bravebox.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_logo: 
+  company_work: 
   twitter: https://twitter.com/bravebox
   google: https://plus.google.com/+MickSchouten
   behance: https://www.behance.net/bravebox
@@ -55,8 +55,8 @@
   company: Bravebox
   company_url: http://www.bravebox.nl
   company_position: designer
-  company_logo: http://bravebox.github.io/reclama/assets/people/bravebox.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_logo: 
+  company_work: 
   twitter: https://twitter.com/bravebox
   google: https://plus.google.com/+MickSchouten
   behance: https://www.behance.net/bravebox
@@ -69,7 +69,7 @@
   company_url: http://www.vicinitysoftware.com
   company_position: Programmer
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter: 
   google: 
   behance: 
@@ -82,7 +82,7 @@
   company_url: http://www.example.org
   company_position: My position
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
@@ -95,7 +95,7 @@
   company_url: http://www.example.org
   company_position: My position
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
@@ -108,7 +108,7 @@
   company_url: http://www.example.org
   company_position: Motiongrapher
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
@@ -121,7 +121,7 @@
   company_url: http://www.example.org
   company_position: Motiongraphers
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
@@ -134,7 +134,7 @@
   company_url: http://www.example.org
   company_position: My position
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
@@ -147,7 +147,7 @@
   company_url: http://www.example.org
   company_position: My position
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
@@ -160,7 +160,7 @@
   company_url: http://www.example.org
   company_position: My position
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
@@ -173,7 +173,7 @@
   company_url: http://www.example.org
   company_position: My position
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
@@ -186,7 +186,7 @@
   company_url: http://www.example.org
   company_position: My position
   company_logo: http://bravebox.github.io/reclama/assets/people/company.png
-  company_work: http://bravebox.github.io/reclama/assets/people/company-work-empty.jpg
+  company_work: 
   twitter:
   google:
   behance:
