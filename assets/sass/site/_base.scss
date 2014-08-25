@@ -1092,3 +1092,38 @@
 				
 				
 			}
+			
+			
+			.text-center {
+				text-align: center;
+			}
+			
+			#aanmelden {
+			    background:url(../img/backdrop_03.jpg) no-repeat center center;
+			    -webkit-background-size:cover;
+			    -moz-background-size:cover;
+			    -o-background-size:cover;
+			    background-size:cover;
+			    background-attachment:fixed;
+			    padding:120px 0 140px;
+			    h1 {
+				    color: #fff;
+			    }
+			}
+			
+			
+			
+			#bedankt {
+			    background:url(../img/backdrop_02.jpg) no-repeat center center;
+			    -webkit-background-size:cover;
+			    -moz-background-size:cover;
+			    -o-background-size:cover;
+			    background-size:cover;
+			    background-attachment:fixed;
+			    padding:120px 0 140px;
+			    h1 {
+				    color: #fff;
+			    }
+			}
+			
+			
