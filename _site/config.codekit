@@ -547,11 +547,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/people\/guido-hirzmann.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50397,
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/guido-hirzmann.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/guido-hirzmann.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/people\/linda-hirzmann.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 606078,
+		"initialSize": 54605,
 		"inputAbbreviatedPath": "\/_site\/assets\/people\/linda-hirzmann.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/people\/linda-hirzmann.jpg",
 		"outputPathIsOutsideProject": 0,

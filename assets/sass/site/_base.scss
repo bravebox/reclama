@@ -969,8 +969,13 @@
 		    margin-top:70px
 		}
 		
-		ul.slides li {
-		    margin-bottom:20px
+		ul.slides {
+			list-style: none;
+			margin: 0 !important;
+			padding: 0 !important;
+			li {
+				margin-bottom:20px;
+		    }
 		}
 		
 		/* ==========================================================================

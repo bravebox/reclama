@@ -12,11 +12,11 @@
 			    	<img alt="{{ member.name }}" src="{{ avatar }}" class="img-responsive">
 				</div>
 				
-				<h1 class="arrow">{{name}}</h1>
+				<h2>{{name}}</h2>
 				<p>{{ company_position }} <!--at {{ company }}--></p>
 				<p>{{{description}}}</p>
 				
-				<h3 class="arrow">Contact of follow {{name}}</h3>
+				<h3 class="arrow">Contact of follow</h3>
 				<ul class="social-buttons">
 					{{#if facebook}}
 					<li>
@@ -50,6 +50,13 @@
 					<li>
 						<a class="social-btn" href="{{behance}}" target="_blank">
 							<span class="icon-behance"></span>
+						</a>
+					</li>
+					{{/if}}
+					{{#if vimeo}}
+					<li>
+						<a class="social-btn" href="{{vimeo}}" target="_blank">
+							<span class="icon-vimeo"></span>
 						</a>
 					</li>
 					{{/if}}
