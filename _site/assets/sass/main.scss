@@ -4,10 +4,11 @@
 		@import "compass/reset";
 		@import "compass/css3";
 		@import "fonts";
+		@import "mixins";
 
 		@import "lib/bootstrap";
 		@import "lib/animate";
-		@import "lib/flexslider";
+		//@import "lib/flexslider";
 
 		@import "site/base";
 		@import "site/queries";

@@ -7,15 +7,16 @@
 
 		{% include header.html %}
 
-		{% include section-reclama.html %}
-		{% include section-people.html %}
-		{% include section-news.html %}
-		{% include section-contact.html %}
+		{% include section-01-reclama.html %}
+		{% include section-02-block.html %}
+		{% include section-03-people.html %}
+		{% include section-04-news.html %}
+		{% include section-05-contact.html %}
 
 		{% include footer.html %}
 
 		<script>var reclama = [{% for member in site.data.people %} { "name": "{{ member.name }}", "avatar": "{{ member.avatar }}", "company": "{{ member.company }}", "company_url": "{{ member.company_url }}", "company_position": "{{ member.company_position }}", "company_logo": "{{ member.company_logo }}", "company_work": "{{ member.company_work }}", "twitter": "{{ member.twitter }}", "google": "{{ member.google }}", "behance": "{{ member.behance }}", "mail": "{{ member.mail }}", "description": "{{ member.description }}" }, {% endfor %} {}];</script>
-		<script src="http://bravebox.github.io/reclama/assets/js/app.min.js"></script>
+		<script src="assets/js/app.min.js"></script>
 
 	</body>
 </html>

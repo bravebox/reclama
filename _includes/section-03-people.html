@@ -1,25 +1,14 @@
-<section class="swag swag-people text-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1>Lorem ipsum header</h1>
-				<p>Nostrum mollitia potenti vel adipisicing nullam porro enim dolor occaecat iaculis venenatis!</p>
-			</div>
-		</div>
-	</div>
-</section>
-
 <section class="text-center section-padding" id="people">
 	<div class="container">
         <div class="row team-wrapper cf">
-			<div class="col-md-8 col-md-offset-2 wp2">
-				<h1 class="arrow">People</h1>
+			<div class="col-md-8 col-md-offset-2 hidden_element animated delay-02s">
+				<h1 class="arrow testPoint">People</h1>
 			</div>
         	<div class="col-md-12">
 	            <ul class="slides">
 	                <li>
 					{% for member in site.data.people %}
-						<div class="col-md-4 col-sm-6 wp2 wp-team-member delay-03s">
+						<div class="col-md-4 col-sm-6 wp-team-member">
 							<div class="wp-member-avatar">
 								<a class="wp-member-detail" href="#"><span class="icon-plus"></span></a>
 						    	<img alt="{{ member.name }}" src="{{ member.avatar }}" class="img-responsive">

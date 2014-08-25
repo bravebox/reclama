@@ -1,182 +1,166 @@
-var Handlebars;
+		var Handlebars, Modernizr, reclama,  console;
+		var waypoint_offset = '35%';
+		var window_height = $(window).height();
 
-/***************** Waypoints ******************/
+		/* ==========================================================================
+		Document
+		========================================================================== */
 
-$(document).ready(function() {
+				$(document).ready(function() {
+				
+					
+					$('#reclama').waypoint(function() {
+						$(this).find('.animated').addClass('fadeInUp');
+					}, {
+						offset: waypoint_offset
+					});
+								
+					$('#someBlock').waypoint(function() {
+						$(this).find('.animated').addClass('fadeInUp');
+					}, {
+						offset: waypoint_offset
+					});
+					
+					$('#people').waypoint(function() {
+						$(this).find('.animated').addClass('fadeInUp');
+					}, {
+						offset: waypoint_offset
+					});
+					
+					$('#news').waypoint(function() {
+						$(this).find('.animated').addClass('fadeInUp');
+					}, {
+						offset: waypoint_offset
+					});
+					
+					$('#contact').waypoint(function() {
+						$(this).find('.animated').addClass('fadeInUp');
+					}, {
+						offset: waypoint_offset
+					});
+					
+								
+				});
 
-	$('.wp1').waypoint(function() {
-		$('.wp1').addClass('animated fadeInLeft');
-	}, {
-		offset: '75%'
-	});
+		/* ==========================================================================
+		Nav
+		========================================================================== */
 	
-	$('.wp2').waypoint(function() {
-		$('.wp2').addClass('animated fadeInUp');
-	}, {
-		offset: '75%'
-	});
-
-	$('.wp3').waypoint(function() {
-		$('.wp3').addClass('animated fadeInDown');
-	}, {
-		offset: '55%'
-	});
-
-	$('.wp4').waypoint(function() {
-		$('.wp4').addClass('animated fadeInDown');
-	}, {
-		offset: '75%'
-	});
-
-	$('.wp5').waypoint(function() {
-		$('.wp5').addClass('animated fadeInUp');
-	}, {
-		offset: '75%'
-	});
-
-	$('.wp6').waypoint(function() {
-		$('.wp6').addClass('animated fadeInDown');
-	}, {
-		offset: '75%'
-	});
-
-});
-
-/***************** Slide-In Nav ******************/
-
-$(window).load(function() {
-	$('.nav_slide_button').click(function() {
-		$('.pull').slideToggle();
-	});
-});
-
-/***************** Smooth Scrolling ******************/
-
-$(function() {
-
-	$('a[href*=#]:not([href=#])').click(function() {
-		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-			if (target.length) {
-				$('html,body').animate({
-					scrollTop: target.offset().top
-				}, 2000);
-				return false;
-			}
-		}
-	});
-
-});
-
-/***************** Open member card ******************/
-
-$(function() {
-	$(document).on('click', 'a.wp-member-detail', function(e) {
-		e.preventDefault();
-		e.stopPropagation();
-			$('body').addClass('no-scroll');
-			var index = $(this).parent().parent().index();
-            var path = 'assets/templates/member.html';
-			var source, template;
-            $.ajax({
-                url: path,
-                cache: true,
-                success: function (data) {
-                    source = data;
-                    template = Handlebars.compile(source);
-                    $('body').append( template(reclama[index]) );
-                    $("#reclama-member-overlay").animate({opacity: 1}, 600);
-                }
-            });
-	});
-});
-
-$(function() {
-	$(document).on('click', 'a.member-close', function(e) {
-		e.preventDefault();
-		e.stopPropagation();
-			$("#reclama-member-overlay").fadeOut(600, function(){
-				$('html, body').removeClass('no-scroll');			
-				$(this).remove();
+			document.querySelector("#nav-toggle").addEventListener("click", function() {
+				this.classList.toggle("active");
 			});
-	});
-});
 
-/***************** Nav Transformicon ******************/
+		/* ==========================================================================
+		Functions
+		========================================================================== */
 
-document.querySelector("#nav-toggle").addEventListener("click", function() {
-	this.classList.toggle("active");
-});
+			function resizeFs() {
+				'use strict';
+					window_height = $(window).height();
+					$('.fs').css({height: window_height});
+			}
 
-/***************** Overlays ******************/
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop: target.offset().top
+							}, 2000);
+							return false;
+						}
+					}
+				});
+			});
 
-$(document).ready(function(){
-    if (Modernizr.touch) {
-        // show the close overlay button
-        $(".close-overlay").removeClass("hidden");
-        // handle the adding of hover class when clicked
-        $(".img").click(function() {
-            if (!$(this).hasClass("hover")) {
-                $(this).addClass("hover");
-            }
-        });
-        // handle the closing of the overlay
-        $(".close-overlay").click(function(e){
-            e.preventDefault();
-            e.stopPropagation();
-            if ($(this).closest(".img").hasClass("hover")) {
-                $(this).closest(".img").removeClass("hover");
-            }
-        });
-    } else {
-        // handle the mouseenter functionality
-        $(".img").mouseenter(function(){
-            $(this).addClass("hover");
-        })
-        // handle the mouseleave functionality
-        .mouseleave(function(){
-            $(this).removeClass("hover");
-        });
-    }
-});
+		/* ==========================================================================
+		Member card
+		========================================================================== */
 
-/***************** Flexsliders ******************/
+			$(function() {
+				$(document).on('click', 'a.wp-member-detail', function(e) {
+					e.preventDefault();
+					e.stopPropagation();
+						$('body').addClass('no-scroll');
+						var index = $(this).parent().parent().index();
+			            var path = 'assets/templates/member.html';
+						var source, template;
+			            $.ajax({
+			                url: path,
+			                cache: true,
+			                success: function (data) {
+			                    source = data;
+			                    template = Handlebars.compile(source);
+			                    $('body').append( template(reclama[index]) );
+			                    $("#reclama-member-overlay").animate({opacity: 1}, 600);
+			                }
+			            });
+				});
+			});
+			
+			$(function() {
+				$(document).on('click', 'a.member-close', function(e) {
+					e.preventDefault();
+					e.stopPropagation();
+						$("#reclama-member-overlay").fadeOut(600, function(){
+							$('html, body').removeClass('no-scroll');			
+							$(this).remove();
+						});
+				});
+			});
+	
+	
+		/* ==========================================================================
+		Overlay
+		========================================================================== */
+	
+			$(document).ready(function(){
+			    if (Modernizr.touch) {
+			        // show the close overlay button
+			        $(".close-overlay").removeClass("hidden");
+			        // handle the adding of hover class when clicked
+			        $(".img").click(function() {
+			            if (!$(this).hasClass("hover")) {
+			                $(this).addClass("hover");
+			            }
+			        });
+			        // handle the closing of the overlay
+			        $(".close-overlay").click(function(e){
+			            e.preventDefault();
+			            e.stopPropagation();
+			            if ($(this).closest(".img").hasClass("hover")) {
+			                $(this).closest(".img").removeClass("hover");
+			            }
+			        });
+			    } else {
+			        // handle the mouseenter functionality
+			        $(".img").mouseenter(function(){
+			            $(this).addClass("hover");
+			        })
+			        // handle the mouseleave functionality
+			        .mouseleave(function(){
+			            $(this).removeClass("hover");
+			        });
+			    }
+			});
+	
+		/* ==========================================================================
+		Load / Resize
+		========================================================================== */
 
-$(window).load(function() {
-	/*
-	$('#portfolioSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: false,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
+			$(window).load(function() {
+				// resize window
+					resizeFs();
+				
+				// init menu toggle
+					$('.nav_slide_button').click(function() {
+						$('.pull').slideToggle();
+					});
+			});
 
-	$('#servicesSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
-
-	$('#teamSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
-	*/
-});
+			
+			$(window).resize(function() {
+				resizeFs();
+			});			
