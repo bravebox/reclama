@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+	<header id="home">
+    <section class="hero" id="hero" style="height: 200px !important;">
+        <div class="container">
+            <div class="row col-md-8 col-md-offset-2 text-center inner">
+                <h1 class="animated fadeInDown">
+	                <img src="assets/img/reclama-logo.png" alt="Reclama" class="img-responsive" />
+                </h1>
+                <br/>
+	            <a href="#people" class="cta-btn down-arrow-btn">
+	            	<span class="icon-heart pulse"></span>
+	            </a>
+            </div>
+        </div>
+    </section>
+</header>
+
+	<style type="text/css">
+	.form-label-left{
+	width:150px !important;
+	}
+	.form-line{
+	padding-top:6px;
+	padding-bottom:6px;
+	}
+	.form-label-right{
+	width:150px !important;
+	}
+	.form-all{
+	width:454px;
+	background:#FFFFFF;
+	font-family:'Verdana';
+	font-size:12px;
+	}
+	/* Injected CSS Code */
+	.form-all{
+	padding-top: 0;
+	font-family:"Verdana", sans-serif;
+	}
+	/*--red border on error--*/
+	.form-validation-error {
+	border: 1px solid #FFB0B0 !important;
+	}
+	/*---form textbox styles fixed---*/.form-textarea, .form-textbox  {
+	border: 1px solid #b7bbbd;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 4px;
+	background:transparent !important;
+	width:100%;
+	-webkit-appearance: none;
+	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2), 0 1px 0 rgb(255,255,255);
+	-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2), 0 1px 0 rgb(255,255,255);
+	box-shadow: inset 0 0 4px rgba(0,0,0,0.2), 0 1px 0 rgb(255,255,255);
+	border: 1px solid #AEAEAE;
+	color: #333;
+	font-family:"Verdana", sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}ul.form-section li.form-line:first-child {
+	background:url('http://shots.jotform.com/elton/images/bg_envelope_02.gif') no-repeat 0 2px;
+	}.form-line{
+	background:url('http://shots.jotform.com/elton/images/bg_envelope_wrapper.gif') repeat-y;
+	}/*---remove error message---*/
+	.form-error-message {
+	display: none !important;
+	}
+	.form-line-error {
+	background: url('http://shots.jotform.com/elton/images/bg_envelope_wrapper.gif') repeat-y;
+	}/*---submit button move--*/
+	.form-submit-button{
+	margin-top:60px;
+	cursor: pointer;
+	}.form-textarea:focus, .form-textbox:focus{
+	outline:none !important;
+	}/*--fix captcha--*/.form-captcha .form-textbox{
+	width:130px !important;
+	}
+	.form-line {
+	padding: 6px 28px 6px 30px;
+	width: auto;
+	}
+	.form-buttons-wrapper{
+	text-align:center !important;
+	background: url('http://shots.jotform.com/elton/images/bg_envelope_11.gif') no-repeat 32px -10px;
+	height: 315px;
+	margin: -10px -100px -8px -100px;
+	}
+	.form-button-error {
+	position: absolute;
+	top: 120px;
+	left: 131px;
+	width: 195px;
+	}
+	/* Injected CSS Code */
+	</style>
+	
+	<link type="text/css" rel="stylesheet" href="css/styles/buttons/form-submit-button-book_blue2.css?3.2.3254"/>
+	<script src="js/prototype.js?v=3.2.3254" type="text/javascript"></script>
+	<script src="js/vendor/json2.js?v=3.2.3254" type="text/javascript"></script>
+	<script src="js/protoplus.js?v=3.2.3254" type="text/javascript"></script>
+	<script src="js/protoplus-ui-form.js?v=3.2.3254" type="text/javascript"></script>
+	<script src="js/jotform.js?v=3.2.3254" type="text/javascript"></script>
+	<script src="js/calendarview.js?v=3.2.3254" type="text/javascript"></script>
+	<script type="text/javascript">
+	   JotForm.init(function(){
+	      JotForm.highlightInputs = false;
+	      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Enter a valid e-mail address","generalError":"Please fill the required fields.","generalPageError":"There are errors on this page. Please fix them before continuing.","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"Please complete required (*) fields.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","lessThan":"Your score should be less than","maxDigitsError":"The maximum digits allowed is","maxSelectionsError":"The maximum number of selections allowed is","minSelectionsError":"The minimum required number of selections is","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","numeric":"This field can only contain numeric values","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Please wait...","required":"This field is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","submissionLimit":"Sorry! Only one entry is allowed.  Multiple submissions are disabled for this form.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
+	   });
+	</script>
+
+	<body id="top">
+
+		<div id="loader">
+	<div class="inner-loader animated fadeInUp">
+    	<span class="icon-heart"></span>
+		<h2>Reclama <br/><small>Bezig met laden</small></h2>
+	</div>
+</div>
+
+<header id="home">
+    <nav style="display: table; width: 100%;">
+        <div class="container-fluid row col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+        	<nav class="pull">
+                <ul class="top-nav">
+                    <li>
+                        <a href="#reclama">Reclama</a>
+                    </li>
+                    <li>
+                        <a href="#people">People</a>
+                    </li>
+                    <li>
+                        <a href="#">Work (coming soon)</a>
+                    </li>
+                    <li>
+                        <a href="#news">News</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+
+    <section class="hero fs" id="hero">
+    	<div class="ind-arrow">
+    		<div class="icon-arrow-down"></div>
+    	</div>
+
+        <div class="container">
+            <div class="row col-md-12 text-right navicon">
+                <a class="nav_slide_button" href="#" id="nav-toggle"><span></span></a>
+            </div>
+        </div>
+        
+        <div class="hero-logo text-center">
+            <h1 class="animated fadeInUp">
+                <img src="assets/img/reclama-logo.png" alt="Reclama" class="img-responsive" />
+            </h1>
+            <!--
+            <br/>
+            <a href="#people" class="cta-btn down-arrow-btn">
+            	<span class="icon-heart pulse"></span>
+            </a>
+            -->
+		</div>        
+    </section>
+</header>
+		
+
+
+<div class="container row">
+	<div class="col-md-8 col-md-offset-2">
+
+
+<form class="jotform-form" action="http://submit.jotformeu.com/submit.php" method="post" name="form_42303611267345" id="42303611267345" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="42303611267345" />
+  <div class="form-all">
+    <ul class="form-section">
+      <li class="form-line" data-type="control_text" id="id_6">
+        <div id="cid_6" class="form-input-wide">
+          <div id="text_6" class="form-html">
+            <div style="text-align: center; font-weight: bold; font-size: 25px; color: #3e83a5; font-family: arial;">
+              Aanmelden Reclama
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_1">
+        <label class="form-label form-label-top form-label-auto" id="label_1" for="input_1">
+          Naam
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_1" class="form-input-wide">
+          <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_1" name="q1_naam" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_3">
+        <label class="form-label form-label-top form-label-auto" id="label_3" for="input_3">
+          E-mail
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_3" class="form-input-wide">
+          <input type="text" class=" form-textbox validate[required, Email]" data-type="input-textbox" id="input_3" name="q3_email" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_9">
+        <label class="form-label form-label-top form-label-auto" id="label_9" for="input_9">
+          Beroep / functie (bv Art Director)
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_9" class="form-input-wide">
+          <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_9" name="q9_beroep" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_5">
+        <label class="form-label form-label-top form-label-auto" id="label_5" for="input_5">
+          Bedrijfswebsite
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_5" class="form-input-wide">
+          <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_5" name="q5_bedrijfswebsite" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_15">
+        <label class="form-label form-label-top form-label-auto" id="label_15" for="input_15">
+          Bedrijfsnaam
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_15" class="form-input-wide">
+          <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_15" name="q15_bedrijfsnaam" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_fullname" id="id_16">
+        <label class="form-label form-label-top form-label-auto" id="label_16" for="input_16"> Volledige Naam </label>
+        <div id="cid_16" class="form-input-wide">
+          <span class="form-sub-label-container">
+            <input class="form-textbox" type="text" size="10" name="q16_volledigeNaam16[first]" id="first_16" />
+            <label class="form-sub-label" for="first_16" id="sublabel_first"> Voornaam </label>
+          </span>
+          <span class="form-sub-label-container">
+            <input class="form-textbox" type="text" size="15" name="q16_volledigeNaam16[last]" id="last_16" />
+            <label class="form-sub-label" for="last_16" id="sublabel_last"> Achternaam </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_4">
+        <label class="form-label form-label-top form-label-auto" id="label_4" for="input_4">
+          Omschrijving / biografie
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_4" class="form-input-wide">
+          <textarea id="input_4" class="form-textarea validate[required]" name="q4_omschrijving" cols="40" rows="6"></textarea>
+        </div>
+      </li>
+      <li id="cid_14" class="form-input-wide">
+        <div class="form-header-group">
+          <div class="header-text htvam">
+            <h2 id="header_14" class="form-header">
+              Website linkjes:
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_8">
+        <label class="form-label form-label-top form-label-auto" id="label_8" for="input_8"> Portfolio pagina </label>
+        <div id="cid_8" class="form-input-wide">
+          <input type="text" class=" form-textbox" data-type="input-textbox" id="input_8" name="q8_portfolioPagina" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_10">
+        <label class="form-label form-label-top form-label-auto" id="label_10" for="input_10"> Twitter pagina </label>
+        <div id="cid_10" class="form-input-wide">
+          <input type="text" class=" form-textbox" data-type="input-textbox" id="input_10" name="q10_twitterPagina" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_11">
+        <label class="form-label form-label-top form-label-auto" id="label_11" for="input_11"> Facebook pagina </label>
+        <div id="cid_11" class="form-input-wide">
+          <input type="text" class=" form-textbox" data-type="input-textbox" id="input_11" name="q11_facebookPagina" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_12">
+        <label class="form-label form-label-top form-label-auto" id="label_12" for="input_12"> Linkedin URL </label>
+        <div id="cid_12" class="form-input-wide">
+          <input type="text" class=" form-textbox" data-type="input-textbox" id="input_12" name="q12_linkedinUrl" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_13">
+        <label class="form-label form-label-top form-label-auto" id="label_13" for="input_13"> Vimeo / YouTube pagina </label>
+        <div id="cid_13" class="form-input-wide">
+          <input type="text" class=" form-textbox" data-type="input-textbox" id="input_13" name="q13_vimeo" size="40" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_7">
+        <div id="cid_7" class="form-input-wide">
+          <div style="text-align:center" class="form-buttons-wrapper">
+            <button id="input_7" type="submit" class="form-submit-button form-submit-button-book_blue2">
+              Mail Now!
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="42303611267345" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "42303611267345-42303611267345";
+  </script>
+</form>
+<img src="//tracking.jotform.com/form/42303611267345" style="display:none" />
+
+
+	</div>
+</div>
+
+
+		<footer class="text-center section-padding">
+    <a class="up-btn" href="#top">
+	    <span class="icon-arrow-up3"></span>
+    </a>
+
+	<div class="container">
+		<div class="row">
+        	<div class="col-md-12">
+				<div class="social-buttons-container">
+					<ul class="social-buttons">
+						<li>
+							<a class="social-btn" href="http://www.facebook.com/sharer.php?u=http://www.reclama.nl" target="_blank">
+								<span class="icon-facebook"></span>
+							</a>
+						</li>
+						<li>
+							<a class="social-btn" href="http://twitter.com/share?url=http://www.reclama.nl&amp;text=Reclama&amp;hashtags=reclama" target="_blank">
+								<span class="icon-twitter"></span>
+							</a>
+						</li>
+						<li>
+							<a class="social-btn" href="https://plus.google.com/share?url=http://www.reclama.nl" target="_blank">
+								<span class="icon-googleplus"></span>
+							</a>
+						</li>
+						<li>
+							<a class="social-btn" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.reclama.nl" target="_blank">
+								<span class="icon-linkedin"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+        	</div>
+        </div>
+        
+        <!--
+		<div class="row">
+			<div class="col-md-12">
+				<p>by <a href="http://www.reclama.com/">Reclama</a></p>
+			</div>
+		</div>
+		-->
+	</div>
+</footer>
+
+		<script>var reclama = [ { "name": "Ronald Hagenstein", "avatar": "assets/people/ronald-hagenstein.jpg", "company": "Digital Creative", "company_url": "http://www.digitalcreative.nl", "company_position": "designer", "company_logo": "", "company_work": "", "twitter": "https://twitter.com/...", "google": "", "behance": "https://www.behance.net/ron-art", "mail": "ronald@digitalcreative.nl", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Paul Bothof", "avatar": "assets/people/paul-bothof.jpg", "company": "creAmigo", "company_url": "http://www.creamigo.nl/", "company_position": "art director", "company_logo": "", "company_work": "", "twitter": "https://twitter.com/paulbothof", "google": "https://plus.google.com/100113115595426612853/", "behance": "https://www.behance.net/paulb", "mail": "paul@creamigo.nl", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Mick Schouten", "avatar": "assets/people/mick-schouten.jpg", "company": "Bravebox", "company_url": "http://www.bravebox.nl", "company_position": "creative developer", "company_logo": "", "company_work": "", "twitter": "https://twitter.com/bravebox", "google": "https://plus.google.com/+MickSchouten", "behance": "https://www.behance.net/bravebox", "mail": "bravebox@gmail.com", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Linda Hirzmann", "avatar": "assets/people/linda-hirzmann.jpg", "company": "Bravebox", "company_url": "http://www.bravebox.nl", "company_position": "designer", "company_logo": "", "company_work": "", "twitter": "https://twitter.com/bravebox", "google": "https://plus.google.com/+MickSchouten", "behance": "https://www.behance.net/bravebox", "mail": "bravebox@gmail.com", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Thomas Cremers", "avatar": "assets/people/thomas-cremers.jpg", "company": "Vicinity Software", "company_url": "http://www.vicinitysoftware.com", "company_position": "software engineer", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "", "mail": "info@vicinitysoftware.com", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Guido Hirzmann", "avatar": "assets/people/guido-hirzmann.jpg", "company": "Motionsnacks", "company_url": "http://www.example.org", "company_position": "motiongrapher", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "https://www.behance.net/ghi", "mail": "", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Lody van Buul", "avatar": "assets/people/lody-van-buul.jpg", "company": "WOON Rotterdam", "company_url": "http://www.example.org", "company_position": "tekenaar / ontwerper", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "", "mail": "", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Lilian Jim", "avatar": "assets/people/company-name.jpg", "company": "Lil Studio", "company_url": "http://www.example.org", "company_position": "studio creative", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "", "mail": "", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "John Janssen", "avatar": "assets/people/company-name.jpg", "company": "Janssen Fotografie", "company_url": "http://www.example.org", "company_position": "fotograaf", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "", "mail": "", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Gijs de Groote", "avatar": "assets/people/company-name.jpg", "company": "Cafe Noir", "company_url": "http://www.example.org", "company_position": "motiongrapher", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "", "mail": "", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "David Launzpach", "avatar": "assets/people/company-name.jpg", "company": "", "company_url": "http://www.example.org", "company_position": "tuttebel", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "", "mail": "", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Tijs Nederlof", "avatar": "assets/people/company-name.jpg", "company": "Suprmen", "company_url": "http://www.example.org", "company_position": "my position", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "", "mail": "", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  { "name": "Eva van Steijn", "avatar": "assets/people/company-name.jpg", "company": "", "company_url": "http://www.example.org", "company_position": "my position", "company_logo": "", "company_work": "", "twitter": "", "google": "", "behance": "", "mail": "", "description": "Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus." },  {}];</script>
+		<script src="assets/js/app.min.js"></script>
+
+
+
+	</body>
+</html>
