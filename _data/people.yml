@@ -1,5 +1,5 @@
 - name: Ronald Hagenstein
-  avatar: assets/people/digitalcreative-ronald-hagenstein.jpg
+  avatar: assets/people/ronald-hagenstein.jpg
   company: Digital Creative
   company_url: http://www.digitalcreative.nl
   company_position: designer
@@ -12,7 +12,7 @@
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
 
 - name: Paul Bothof
-  avatar: assets/people/creamigo-paul-bothof.jpg
+  avatar: assets/people/paul-bothof.jpg
   company: creAmigo
   company_url: http://www.creamigo.nl/
   company_position: art director
@@ -24,21 +24,8 @@
   mail: paul@creamigo.nl
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
   
-- name: Maarten Verburg
-  avatar: assets/people/company-name.jpg
-  company: Hexentric
-  company_url: http://www.hexentric.nl
-  company_position: front-end developer
-  company_logo: assets/people/hexentric.png
-  company_work: 
-  twitter: 
-  google: https://plus.google.com/111955064918985646629/posts/Abia1QDbZoh
-  behance: 
-  mail: maarten@hexentric.nl
-  description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
-  
 - name: Mick Schouten
-  avatar: assets/people/bravebox-mick-schouten.jpg
+  avatar: assets/people/mick-schouten.jpg
   company: Bravebox
   company_url: http://www.bravebox.nl
   company_position: front-end developer
@@ -51,7 +38,7 @@
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
   
 - name: Linda Hirzmann
-  avatar: assets/people/company-name.jpg
+  avatar: assets/people/linda-hirzmann.jpg
   company: Bravebox
   company_url: http://www.bravebox.nl
   company_position: designer
@@ -64,10 +51,10 @@
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
   
 - name: Thomas Cremers
-  avatar: assets/people/company-name.jpg
+  avatar: assets/people/thomas-cremers.jpg
   company: Vicinity Software
   company_url: http://www.vicinitysoftware.com
-  company_position: Programmer
+  company_position: software engineer
   company_logo: 
   company_work: 
   twitter: 
@@ -103,7 +90,7 @@
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
   
 - name: Guido Hirzmann
-  avatar: assets/people/company-name.jpg
+  avatar: assets/people/guido-hirzmann.jpg
   company: Motionsnacks
   company_url: http://www.example.org
   company_position: Motiongrapher
@@ -115,7 +102,7 @@
   mail:
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
   
-- name: Gijs de Groote en<br/> Frank Hogenkamp
+- name: Gijs de Groote
   avatar: assets/people/company-name.jpg
   company: Cafe Noir
   company_url: http://www.example.org
@@ -141,7 +128,7 @@
   mail:
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
 
-- name: Tijs, Jasper <br/>en Bas Nederlof
+- name: Tijs Nederlof
   avatar: assets/people/company-name.jpg
   company: Suprmen
   company_url: http://www.example.org
@@ -154,8 +141,8 @@
   mail:
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
   
-- name: Lody van Buul, Sven Engelsman <br/>en Chris Manintveld
-  avatar: assets/people/company-name.jpg
+- name: Lody van Buul
+  avatar: assets/people/lody-van-buul.jpg
   company: WOON Rotterdam
   company_url: http://www.example.org
   company_position: My position
@@ -167,19 +154,6 @@
   mail:
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
   
-- name: Patrick Bonora
-  avatar: assets/people/company-name.jpg
-  company: Appeltje Z
-  company_url: http://www.example.org
-  company_position: My position
-  company_logo: 
-  company_work: 
-  twitter:
-  google:
-  behance:
-  mail:
-  description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
-
 - name: Eva van Steijn
   avatar: assets/people/company-name.jpg
   company:

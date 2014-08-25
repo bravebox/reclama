@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17682",
 "files": {
+	"\/_includes\/__section-05-contactBAK.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/__section-05-contactBAK.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -65,20 +74,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/section-04-news.html": {
+	"\/_includes\/section-04-contact.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/section-04-news.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/section-05-contact.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/section-05-contact.html",
+		"inputAbbreviatedPath": "\/_includes\/section-04-contact.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -151,6 +151,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/css\/ie.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/assets\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -351,6 +360,17 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/app.min.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/app.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/assets\/js\/lib\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -494,6 +514,17 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/assets\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/scripts.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/assets\/people\/bravebox-mick-schouten.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -527,24 +558,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/people\/creamigo-paul-bothof.jpg": {
+	"\/_site\/assets\/people\/guido-hirzmann.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49744,
-		"inputAbbreviatedPath": "\/_site\/assets\/people\/creamigo-paul-bothof.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/people\/creamigo-paul-bothof.jpg",
+		"initialSize": 55863,
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/guido-hirzmann.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/guido-hirzmann.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/people\/digitalcreative-ronald-hagenstein.jpg": {
+	"\/_site\/assets\/people\/linda-hirzmann.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 606078,
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/linda-hirzmann.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/linda-hirzmann.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/people\/lody-van-buul.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58174,
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/lody-van-buul.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/lody-van-buul.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/people\/paul-bothof.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49744,
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/paul-bothof.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/paul-bothof.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/people\/ronald-hagenstein.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 17470,
-		"inputAbbreviatedPath": "\/_site\/assets\/people\/digitalcreative-ronald-hagenstein.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/people\/digitalcreative-ronald-hagenstein.jpg",
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/ronald-hagenstein.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/ronald-hagenstein.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/people\/thomas-cremers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54844,
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/thomas-cremers.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/thomas-cremers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1337,17 +1412,6 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/people\/bravebox-mick-schouten.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16735,
-		"inputAbbreviatedPath": "\/assets\/people\/bravebox-mick-schouten.jpg",
-		"outputAbbreviatedPath": "\/assets\/people\/bravebox-mick-schouten.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/people\/company-name.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1370,24 +1434,79 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/people\/creamigo-paul-bothof.jpg": {
+	"\/assets\/people\/guido-hirzmann.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49744,
-		"inputAbbreviatedPath": "\/assets\/people\/creamigo-paul-bothof.jpg",
-		"outputAbbreviatedPath": "\/assets\/people\/creamigo-paul-bothof.jpg",
+		"initialSize": 55863,
+		"inputAbbreviatedPath": "\/assets\/people\/guido-hirzmann.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/guido-hirzmann.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/people\/digitalcreative-ronald-hagenstein.jpg": {
+	"\/assets\/people\/linda-hirzmann.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 606078,
+		"inputAbbreviatedPath": "\/assets\/people\/linda-hirzmann.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/linda-hirzmann.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/people\/lody-van-buul.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58174,
+		"inputAbbreviatedPath": "\/assets\/people\/lody-van-buul.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/lody-van-buul.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/people\/mick-schouten.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16735,
+		"inputAbbreviatedPath": "\/assets\/people\/mick-schouten.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/mick-schouten.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/people\/paul-bothof.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49744,
+		"inputAbbreviatedPath": "\/assets\/people\/paul-bothof.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/paul-bothof.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/people\/ronald-hagenstein.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 17470,
-		"inputAbbreviatedPath": "\/assets\/people\/digitalcreative-ronald-hagenstein.jpg",
-		"outputAbbreviatedPath": "\/assets\/people\/digitalcreative-ronald-hagenstein.jpg",
+		"inputAbbreviatedPath": "\/assets\/people\/ronald-hagenstein.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/ronald-hagenstein.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/people\/thomas-cremers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54844,
+		"inputAbbreviatedPath": "\/assets\/people\/thomas-cremers.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/thomas-cremers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

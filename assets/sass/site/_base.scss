@@ -67,6 +67,12 @@
 				}
 			}
 			
+			.response {
+				padding: 20px;
+				width: 100%;
+				max-width: 600px;
+				margin: 0 auto;				
+			}
 			
 		
 		/* ==========================================================================
@@ -92,6 +98,9 @@
 				    word-spacing:1px;
 				    line-height:1.6em;
 				    font-size:1.4em;
+				    &.white {
+					    color: #fff;
+				    }
 				}
 				
 				h2 {
@@ -769,18 +778,18 @@
 				}
 				
 				.social-btn {
-				    width:40px;
-				    height:40px;
-				    border-radius:50%;
-				    -moz-border-radius:50%;
-				    -webkit-border-radius:50%;
-				    -o-border-radius:50%;
-				    background: $main_color;
-				    display:inline-block;
-				    color:#fff;
-				    font-size:17px;
-				    line-height:40px;
-				    text-align:center
+					@include border-radius(50%);
+				    width: 60px;
+				    height: 60px;
+
+				    background: #fff;
+				    display: inline-block;
+
+				    color: $main_color;
+				    font-size:1.6em;
+
+				    line-height: 60px;
+				    text-align: center;
 
 					&:hover {
 						color: #fff;
@@ -819,7 +828,8 @@
 				}
 				
 				.contact-details {
-				    margin:70px 0
+				    margin: 70px 0;
+				    
 				}
 				
 				.contact-details h2 {
