@@ -155,15 +155,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/print.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -172,6 +163,72 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/assets\/img\/backdrop_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60551,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_03.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/backdrop_04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96155,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_04.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/backdrop_05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129527,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_05.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/backdrop_06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121506,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_06.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/backdrop_07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169251,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_07.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/backdrop_08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159769,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_08.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/backdrop_08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/assets\/img\/h1-bg.png": {
 		"fileType": 32768,
@@ -327,6 +384,17 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/app.min.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/app.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/assets\/js\/lib\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -465,6 +533,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/js\/lib\/waypoints.min.js",
 		"outputAbbreviatedPath": "\/_site\/assets\/js\/lib\/waypoints.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/assets\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/scripts.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -960,6 +1039,83 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/img\/backdrop_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160878,
+		"inputAbbreviatedPath": "\/assets\/img\/backdrop_02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/backdrop_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/backdrop_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60551,
+		"inputAbbreviatedPath": "\/assets\/img\/backdrop_03.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/backdrop_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/backdrop_04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96155,
+		"inputAbbreviatedPath": "\/assets\/img\/backdrop_04.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/backdrop_04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/backdrop_05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129527,
+		"inputAbbreviatedPath": "\/assets\/img\/backdrop_05.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/backdrop_05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/backdrop_06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121506,
+		"inputAbbreviatedPath": "\/assets\/img\/backdrop_06.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/backdrop_06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/backdrop_07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261581,
+		"inputAbbreviatedPath": "\/assets\/img\/backdrop_07.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/backdrop_07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/backdrop_08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159769,
+		"inputAbbreviatedPath": "\/assets\/img\/backdrop_08.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/backdrop_08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/h1-bg.png": {
 		"fileType": 32768,
