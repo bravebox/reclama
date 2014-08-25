@@ -547,17 +547,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/people\/guido-hirzmann.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 55863,
-		"inputAbbreviatedPath": "\/_site\/assets\/people\/guido-hirzmann.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/people\/guido-hirzmann.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/people\/linda-hirzmann.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -696,15 +685,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/_site\/assets\/templates\/member.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/templates\/member.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
