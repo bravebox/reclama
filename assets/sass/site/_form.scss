@@ -1,0 +1,24 @@
+.form-all {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 30px 0px;
+
+	li {
+
+		width: 100%;
+		padding: 10px 0px;		
+		
+		input[type="text"],
+		input[type="email"],
+		textarea
+		{
+			padding: 10px;
+			background: none;
+			border: none;
+			border: solid 2px $main_color;
+			width: 100%;
+		}
+		
+	}
+}
