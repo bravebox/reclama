@@ -7,7 +7,6 @@
 		========================================================================== */
 
 				$(document).ready(function() {
-				
 					
 					$('#reclama').waypoint(function() {
 						$(this).find('.animated').addClass('fadeInUp');
@@ -15,7 +14,7 @@
 						offset: waypoint_offset
 					});
 								
-					$('#someBlock').waypoint(function() {
+					$('#heb_je_idee').waypoint(function() {
 						$(this).find('.animated').addClass('fadeInUp');
 					}, {
 						offset: waypoint_offset
@@ -27,7 +26,7 @@
 						offset: waypoint_offset
 					});
 					
-					$('#news').waypoint(function() {
+					$('#subscribe').waypoint(function() {
 						$(this).find('.animated').addClass('fadeInUp');
 					}, {
 						offset: waypoint_offset
@@ -38,7 +37,6 @@
 					}, {
 						offset: waypoint_offset
 					});
-					
 								
 				});
 

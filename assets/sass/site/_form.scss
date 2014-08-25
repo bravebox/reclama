@@ -1,37 +1,50 @@
-.form-all {
-	width: 100%;
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 30px 0px;
-	margin-bottom: 50px;
 
-	li {
-
-		width: 100%;
-		padding: 10px 0px;		
+		/* ==========================================================================
+		Form (Mailchimp)
+		========================================================================== */
 		
-		input[type="text"],
-		input[type="email"],
-		textarea
-		{
-			padding: 10px;
-			background: none;
-			border: none;
-			border: solid 2px $main_color;
-			width: 100%;
-		}
-		
-		button {
-			width: 100%;
-			padding: 20px 100px;
-			text-align: center;
-			background: $main_color;
-			color: #fff;
-			border: none;
-			&:hover {
-				background: lighten($main_color, 2%);
+			.response {
+				padding: 20px;
+				width: 100%;
+				max-width: 600px;
+				margin: 0 auto;				
 			}
-		}
-		
-	}
-}
+			
+			
+			.form-all {
+				width: 100%;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 30px 0px;
+				margin-bottom: 50px;
+			
+				li {
+			
+					width: 100%;
+					padding: 10px 0px;		
+					
+					input[type="text"],
+					input[type="email"],
+					textarea
+					{
+						padding: 10px;
+						background: none;
+						border: none;
+						border: solid 2px $main_color;
+						width: 100%;
+					}
+					
+					button {
+						width: 100%;
+						padding: 20px 100px;
+						text-align: center;
+						background: $main_color;
+						color: #fff;
+						border: none;
+						&:hover {
+							background: lighten($main_color, 2%);
+						}
+					}
+					
+				}
+			}
