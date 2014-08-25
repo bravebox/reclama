@@ -525,17 +525,6 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/assets\/people\/bravebox-mick-schouten.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16735,
-		"inputAbbreviatedPath": "\/_site\/assets\/people\/bravebox-mick-schouten.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/people\/bravebox-mick-schouten.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/people\/company-name.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -587,6 +576,17 @@
 		"initialSize": 58174,
 		"inputAbbreviatedPath": "\/_site\/assets\/people\/lody-van-buul.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/people\/lody-van-buul.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/people\/mick-schouten.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16735,
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/mick-schouten.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/mick-schouten.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
