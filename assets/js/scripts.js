@@ -1,5 +1,5 @@
 		var Handlebars, Modernizr, reclama,  console;
-		var waypoint_offset = '35%';
+		var waypoint_offset = '50%';
 		var window_height = $(window).height();
 
 		/* ==========================================================================
