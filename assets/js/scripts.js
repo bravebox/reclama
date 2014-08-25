@@ -116,7 +116,10 @@
 		Overlay
 		========================================================================== */
 	
-			$(document).ready(function(){
+			$(document).ready(function() {
+				// resize window
+					resizeFs();
+			
 			    if (Modernizr.touch) {
 			        // show the close overlay button
 			        $(".close-overlay").removeClass("hidden");
@@ -157,6 +160,11 @@
 				// init menu toggle
 					$('.nav_slide_button').click(function() {
 						$('.pull').slideToggle();
+					});
+					
+				// loader
+					$('#loader').delay(350).fadeOut('slow', function() {
+						$('body').removeClass('no-scroll');
 					});
 			});
 
