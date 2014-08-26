@@ -1,43 +1,48 @@
 		var Handlebars, Modernizr, reclama,  console;
 		var waypoint_offset = '50%';
 		var window_height = $(window).height();
+		var isMobDevice = (/iphone|ipad|Android|webOS|iPod|BlackBerry|Windows Phone|ZuneWP7/gi).test(navigator.appVersion);
 
 		/* ==========================================================================
 		Document
 		========================================================================== */
 
 				$(document).ready(function() {
-					
-					$('#reclama').waypoint(function() {
-						$(this).find('.animated').addClass('fadeInUp');
-					}, {
-						offset: waypoint_offset
-					});
-								
-					$('#heb_je_idee').waypoint(function() {
-						$(this).find('.animated').addClass('fadeInUp');
-					}, {
-						offset: waypoint_offset
-					});
-					
-					$('#people').waypoint(function() {
-						$(this).find('.animated').addClass('fadeInUp');
-					}, {
-						offset: waypoint_offset
-					});
-					
-					$('#subscribe').waypoint(function() {
-						$(this).find('.animated').addClass('fadeInUp');
-					}, {
-						offset: waypoint_offset
-					});
-					
-					$('#contact').waypoint(function() {
-						$(this).find('.animated').addClass('fadeInUp');
-					}, {
-						offset: waypoint_offset
-					});
-								
+					if(!isMobDevice) {
+
+						$('#reclama').waypoint(function() {
+							$(this).find('.animated').addClass('fadeInUp');
+						}, {
+							offset: waypoint_offset
+						});
+									
+						$('#heb_je_idee').waypoint(function() {
+							$(this).find('.animated').addClass('fadeInUp');
+						}, {
+							offset: waypoint_offset
+						});
+						
+						$('#people').waypoint(function() {
+							$(this).find('.animated').addClass('fadeInUp');
+						}, {
+							offset: waypoint_offset
+						});
+						
+						$('#subscribe').waypoint(function() {
+							$(this).find('.animated').addClass('fadeInUp');
+						}, {
+							offset: waypoint_offset
+						});
+						
+						$('#contact').waypoint(function() {
+							$(this).find('.animated').addClass('fadeInUp');
+						}, {
+							offset: waypoint_offset
+						});
+					} else {
+						$(document).find('.animated').addClass('fadeInUp');						
+					}
+
 				});
 
 		/* ==========================================================================
