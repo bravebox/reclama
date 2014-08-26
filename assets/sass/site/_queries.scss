@@ -8,6 +8,7 @@
 		/* 480px (WVGA - Low End Windows Phone) */
 
 			@media screen and (max-width:480px) {
+
 				#reclama-member-container {
 					margin: 0 !important;
 				}
@@ -33,7 +34,7 @@
 						width: 60%;
 					}			
 				}
-				
+
 				.wp-member-detail {
 					bottom: 30px;
 					margin-left: -15px;
@@ -42,9 +43,9 @@
 					line-height: 30px;
 				}				
 				
-				.subscribe input[type=text], 
-				.subscribe input[type=email],
-				.subscribe input[type=submit] {
+				#subscribe input[type=text], 
+				#subscribe input[type=email],
+				#subscribe input[type=submit] {
 					width: 100%;
 					margin-bottom: 20px;
 				}
@@ -54,7 +55,7 @@
 
 			@media screen and (max-width:1024px) {
 				#heb_je_idee { background-attachment: scroll; }
-				.subscribe { background-attachment: scroll; }
+				#subscribe { background-attachment: scroll; }
 			}
 
 		/* 1200px (Small Desktop, Netbook) */
