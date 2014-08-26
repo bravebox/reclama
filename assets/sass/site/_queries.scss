@@ -18,6 +18,7 @@
 					height: auto;
 					clear: both;
 					border-bottom: solid 1px #ccc;
+					min-height: 140px;
 					.wp-member-avatar {
 						float: left;
 						width: 30%;						
@@ -28,11 +29,15 @@
 					}
 					h2 {
 						width: 60%;
-						margin-top: 42px;
+						margin-top: 38px;
 					}
 					p {
 						width: 60%;
 					}			
+				}
+				
+				.light-box {
+					margin-bottom: 40px;
 				}
 
 				.wp-member-detail {
@@ -48,6 +53,10 @@
 				#subscribe input[type=submit] {
 					width: 100%;
 					margin-bottom: 20px;
+				}
+				
+				.section-padding {
+					padding: 60px 0px;
 				}
 			}
 	
