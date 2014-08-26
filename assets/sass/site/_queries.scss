@@ -15,7 +15,32 @@
 				.wp-team-member {
 					padding: 0px;
 					height: auto;
+					clear: both;
+					border-bottom: solid 1px #ccc;
+					.wp-member-avatar {
+						float: left;
+						width: 30%;						
+					}
+					h2, p {
+						text-align: left !important;
+						float: right !important;
+					}
+					h2 {
+						width: 60%;
+						margin-top: 42px;
+					}
+					p {
+						width: 60%;
+					}			
 				}
+				
+				.wp-member-detail {
+					bottom: 30px;
+					margin-left: -15px;
+					width: 30px;
+					height: 30px;
+					line-height: 30px;
+				}				
 				
 				.subscribe input[type=text], 
 				.subscribe input[type=email],
