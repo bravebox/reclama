@@ -1,3 +1,7 @@
+---
+layout: afgemeld
+---
+
 <!DOCTYPE html>
 <html>
 
@@ -5,12 +9,12 @@
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
-	    <title>Bedankt!</title>
+	    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="description" content="This is Reclama.">
+	    <meta name="description" content="{{ site.description }}">
 	
-	    <link rel="canonical" href="http://www.reclama.nl/bedankt/">
-	    <link rel="stylesheet" href="../assets/css/main.css">
+	    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	    <link rel="stylesheet" href="{{ "../assets/css/main.css" | prepend: site.baseurl }}">
 	
 	    <!--[if lt IE 9]>
 		    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -24,8 +28,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
-			            <h1 class="white">Bedankt!</h1>
-			            <p class="white">Formulier is verzonden, je hoort snel van ons</p>
+			            <h1 class="white">Je bent afgemeld.</h1>
+			            <p class="white">Je ontvangt geen updates meer van ons, toch bedankt voor je interesse.</p>
 					</div>
 				</div>
 			</div>
