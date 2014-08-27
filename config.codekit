@@ -83,6 +83,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_layouts\/afgemeld.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/afgemeld.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_layouts\/bedankt.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -657,6 +666,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/people\/maarten-verburg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42205,
+		"inputAbbreviatedPath": "\/_site\/assets\/people\/maarten-verburg.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/people\/maarten-verburg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/people\/mick-schouten.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -675,17 +695,6 @@
 		"initialSize": 47965,
 		"inputAbbreviatedPath": "\/_site\/assets\/people\/paul-bothof.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/people\/paul-bothof.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/people\/ronald-hagenstein.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17470,
-		"inputAbbreviatedPath": "\/_site\/assets\/people\/ronald-hagenstein.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/people\/ronald-hagenstein.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -831,15 +840,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/aanmelden.md",
 		"outputAbbreviatedPath": "\/aanmelden.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/afgemeld.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/afgemeld.html",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1629,6 +1629,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/people\/lilian.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55490,
+		"inputAbbreviatedPath": "\/assets\/people\/lilian.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/lilian.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/people\/linda-hirzmann.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1647,6 +1658,17 @@
 		"initialSize": 58174,
 		"inputAbbreviatedPath": "\/assets\/people\/lody-van-buul.jpg",
 		"outputAbbreviatedPath": "\/assets\/people\/lody-van-buul.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/people\/maarten-verburg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42205,
+		"inputAbbreviatedPath": "\/assets\/people\/maarten-verburg.jpg",
+		"outputAbbreviatedPath": "\/assets\/people\/maarten-verburg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
