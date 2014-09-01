@@ -474,6 +474,7 @@
 				position: absolute;
 				top: 20px; 
 				right: 20px;
+				z-index: 999;
 				span {
 					font-size: 30px;				
 					color: $main_color;				
@@ -548,7 +549,7 @@
 					max-width: 800px;
 					background: #fff;
 					margin: 20px auto;
-					padding: 40px;
+					padding: 0px;
 					position: relative;
 				}
 				
@@ -583,4 +584,19 @@
 			    h1 {
 				    color: #fff;
 			    }
+			}
+			
+			.member-text {
+				padding: 30px;
+			}
+			
+			#member-slider {
+				a {
+					img {
+						width: 100%;
+					}
+					&:hover {
+						opacity: 0.7;
+					}
+				}
 			}

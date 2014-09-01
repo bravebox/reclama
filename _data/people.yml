@@ -7,6 +7,7 @@
   company_work: 
   twitter: https://twitter.com/...
   google: 
+  reel:
   behance: https://www.behance.net/ron-art
   behance_user: ron-art
   linkedin: http://nl.linkedin.com/in/ronaldhagenstein
@@ -24,13 +25,14 @@
   company_work: 
   twitter: https://twitter.com/paulbothof
   google: https://plus.google.com/100113115595426612853/
+  reel:
   behance: https://www.behance.net/paulb
   behance_user: paulb
   linkedin: http://nl.linkedin.com/in/paulbothof
   vimeo: 
   facebook: 
   mail: paul@creamigo.nl
-  description: Komt er snel aan!
+  description:
   
 - name: Mick Schouten
   avatar: assets/people/mick-schouten.jpg
@@ -41,6 +43,7 @@
   company_work: 
   twitter: https://twitter.com/bravebox
   google: https://plus.google.com/+MickSchouten
+  reel:
   behance: https://www.behance.net/bravebox
   behance_user: bravebox
   linkedin: http://nl.linkedin.com/in/bravebox
@@ -58,13 +61,14 @@
   company_work: 
   twitter: https://twitter.com/bravebox
   google: https://plus.google.com/+MickSchouten
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail: bravebox@gmail.com
-  description: Komt er snel aan!
+  description:
   
 - name: Thomas Cremers
   avatar: assets/people/thomas-cremers.jpg
@@ -75,13 +79,14 @@
   company_work: 
   twitter: 
   google: 
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail: info@vicinitysoftware.com
-  description: Komt er snel aan!
+  description:
 
 - name: Guido Hirzmann
   avatar: assets/people/guido-hirzmann.jpg
@@ -92,13 +97,14 @@
   company_work: 
   twitter:
   google:
+  reel: 53702948
   behance: https://www.behance.net/ghi
-  behance_user: ghi
+  behance_user:
   linkedin: http://nl.linkedin.com/pub/guido-hirzmann/7/237/443
   vimeo: http://vimeo.com/motionsnacks
   facebook: 
   mail:
-  description: Komt er snel aan!
+  description:
 
 - name: Lody van Buul
   avatar: assets/people/lody-van-buul.jpg
@@ -109,13 +115,14 @@
   company_work: 
   twitter:
   google:
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail:
-  description: Komt er snel aan!
+  description:
   
 - name: Lilian Jim
   avatar: assets/people/lilian-jim.jpg
@@ -126,13 +133,14 @@
   company_work: 
   twitter:
   google:
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail:
-  description: Komt er snel aan!
+  description:
 
 - name: Tijs Nederlof
   avatar: assets/people/tijs-nederlof.jpg
@@ -160,13 +168,14 @@
   company_work: 
   twitter:
   google:
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail:
-  description: Komt er snel aan!
+  description:
     
 - name: John Janssen
   avatar: assets/people/company-name.jpg
@@ -177,13 +186,14 @@
   company_work: 
   twitter:
   google:
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail:
-  description: Komt er snel aan!
+  description:
     
 - name: Gijs de Groote
   avatar: assets/people/company-name.jpg
@@ -194,13 +204,14 @@
   company_work: 
   twitter:
   google:
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail:
-  description: Komt er snel aan!
+  description:
   
 - name: David Launzpach
   avatar: assets/people/company-name.jpg
@@ -211,13 +222,14 @@
   company_work: 
   twitter:
   google:
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail:
-  description: Komt er snel aan!
+  description:
 
 - name: Eva van Steijn
   avatar: assets/people/company-name.jpg
@@ -228,10 +240,11 @@
   company_work: 
   twitter:
   google:
+  reel:
   behance: 
   behance_user:
   linkedin: 
   vimeo: 
   facebook: 
   mail:
-  description: Komt er snel aan!  
+  description:  

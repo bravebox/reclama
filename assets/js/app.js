@@ -9,8 +9,10 @@ require.config({
 			bootstrap: 'lib/bootstrap',
 			be: 'lib/behance/be',
 
-		// animations
+		// animations / load
 			waypoints: 'lib/jquery-animations/jquery.waypoints',
+			lazyload: 'lib/jquery-animations/jquery.lazyload.min',
+			fitVids: 'lib/jquery-animations/jquery.fitvids',
 			//velocity: 'lib/jquery-animations/jquery.velocity',
 
 		// handlebars
@@ -22,9 +24,9 @@ require.config({
 	        //data: '../data',
 
 		// cycle2			
-			cycle2_lib: 'lib/jquery.cycle2.min',
-			cycle2_carousel: 'lib/jquery.cycle2.carousel.min',
-			cycle2_fade: 'lib/jquery.cycle2.ie-fade.min',
+			cycle2_lib: 'lib/jquery.cycle2/jquery.cycle2.min',
+			cycle2_carousel: 'lib/jquery.cycle2/jquery.cycle2.carousel.min',
+			cycle2_fade: 'lib/jquery.cycle2/jquery.cycle2.ie-fade.min',
 
 		// core libs
 			main: 'core/_main'
@@ -35,6 +37,9 @@ require.config({
 			deps: ['jquery']
 		},
 		waypoints: {
+			deps: ['jquery']
+		},
+		lazyload: {
 			deps: ['jquery']
 		},
 		cycle2_lib: {

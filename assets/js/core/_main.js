@@ -3,10 +3,15 @@ define(
 	'jquery',
 	'waypoints',
 	'Handlebars',
-	'be'
+	'lazyload',
+	'be',
+	'cycle2_lib',
+	'cycle2_carousel',
+	'cycle2_fade',
+	'fitVids'
 ], 
 
-function($, waypoints, Handlebars, be) {
+function($, waypoints, Handlebars, lazyload, be, Cycle2_lib, Cycle2_carousel, Cycle2_fade) {
 	'use strict';
 
 	/* Elements
@@ -103,6 +108,7 @@ function($, waypoints, Handlebars, be) {
 		});
 
 
+
 	/* Member card
 	------------------------------ */
 		$(function() {
@@ -150,7 +156,8 @@ function($, waypoints, Handlebars, be) {
                     $('body').append(template(d));
                     $("#reclama-member-overlay").animate({opacity: 1}, 600);
 					$('#loader').delay(350).fadeOut('slow', function() {
-						$('body').removeClass('no-scroll');
+						$(".cycle-slider").cycle();
+						$(".fit").fitVids();
 					});
                 }
             });			
@@ -162,7 +169,7 @@ function($, waypoints, Handlebars, be) {
 				.then(function success(results) {
 					var context = {
 						"be": true,
-						"be_data": results,
+						"projects": results.projects,
 						"member": reclama[index]
 					};	
 					loadHbTemplate(context);
