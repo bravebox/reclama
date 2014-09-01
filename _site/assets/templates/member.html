@@ -9,60 +9,60 @@
 			<div class="row col-md-12">
 				
 				<div class="wp-member-avatar">
-			    	<img alt="{{ member.name }}" src="{{ avatar }}" class="img-responsive">
+			    	<img alt="{{member.name}}" src="{{member.avatar}}" class="img-responsive">
 				</div>
 				
-				<h2>{{name}}</h2>
-				<p>{{ company_position }} <!--at {{ company }}--></p>
-				<p>{{{description}}}</p>
+				<h2>{{member.name}}</h2>
+				<p>{{member.company_position }} <!--at {{ company }}--></p>
+				<p>{{{member.description}}}</p>
 				
 				<h3 class="arrow">Contact of follow</h3>
 				<ul class="social-buttons">
-					{{#if facebook}}
+					{{#if member.facebook}}
 					<li>
-						<a class="social-btn" href="{{facebook}}" target="_blank">
+						<a class="social-btn" href="{{member.facebook}}" target="_blank">
 							<span class="icon-facebook"></span>
 						</a>
 					</li>
 					{{/if}}
-					{{#if twitter}}
+					{{#if member.twitter}}
 					<li>
-						<a class="social-btn" href="{{twitter}}" target="_blank">
+						<a class="social-btn" href="{{member.twitter}}" target="_blank">
 							<span class="icon-twitter"></span>
 						</a>
 					</li>
 					{{/if}}
-					{{#if google}}
+					{{#if member.google}}
 					<li>
-						<a class="social-btn" href="{{google}}" target="_blank">
+						<a class="social-btn" href="{{member.google}}" target="_blank">
 							<span class="icon-googleplus"></span>
 						</a>
 					</li>
 					{{/if}}
-					{{#if linkedin}}
+					{{#if member.linkedin}}
 					<li>
-						<a class="social-btn" href="{{linkedin}}" target="_blank">
+						<a class="social-btn" href="{{member.linkedin}}" target="_blank">
 							<span class="icon-linkedin"></span>
 						</a>
 					</li>
 					{{/if}}
-					{{#if behance}}
+					{{#if member.behance}}
 					<li>
-						<a class="social-btn" href="{{behance}}" target="_blank">
+						<a class="social-btn" href="{{member.behance}}" target="_blank">
 							<span class="icon-behance"></span>
 						</a>
 					</li>
 					{{/if}}
-					{{#if vimeo}}
+					{{#if member.vimeo}}
 					<li>
-						<a class="social-btn" href="{{vimeo}}" target="_blank">
+						<a class="social-btn" href="{{member.vimeo}}" target="_blank">
 							<span class="icon-vimeo"></span>
 						</a>
 					</li>
 					{{/if}}
-					{{#if mail}}
+					{{#if member.mail}}
 					<li>
-						<a class="social-btn" href="mailto:{{mail}}">
+						<a class="social-btn" href="mailto:{{member.mail}}">
 							<span class="icon-mail"></span>
 						</a>
 					</li>
