@@ -2,7 +2,7 @@
   avatar: assets/people/ronald-hagenstein.jpg
   company: Digital Creative
   company_url: http://www.digitalcreative.nl
-  company_position: designer
+  company_position: creatief entrepeneur
   company_logo: 
   company_work: 
   twitter: https://twitter.com/...
@@ -20,7 +20,7 @@
   avatar: assets/people/paul-bothof.jpg
   company: creAmigo
   company_url: http://www.creamigo.nl/
-  company_position: art director
+  company_position: creatief strateeg
   company_logo: 
   company_work: 
   twitter: https://twitter.com/paulbothof
@@ -38,7 +38,7 @@
   avatar: assets/people/mick-schouten.jpg
   company: Bravebox
   company_url: http://www.bravebox.nl
-  company_position: creative developer
+  company_position: css-architect
   company_logo: 
   company_work: 
   twitter: https://twitter.com/bravebox
@@ -56,7 +56,7 @@
   avatar: assets/people/linda-hirzmann.jpg
   company: Bravebox
   company_url: http://www.bravebox.nl
-  company_position: designer
+  company_position: grafisch designer
   company_logo: 
   company_work: 
   twitter: https://twitter.com/bravebox
@@ -74,7 +74,7 @@
   avatar: assets/people/thomas-cremers.jpg
   company: VicinitySoftware
   company_url: http://vicinitysoftware.com
-  company_position: software ontwikkelaar
+  company_position: programmer
   company_logo: 
   company_work: 
   twitter: https://twitter.com/vicinitysoftwar
@@ -92,7 +92,7 @@
   avatar: assets/people/guido-hirzmann.jpg
   company: MotionSnacks
   company_url: www.motionsnacks.com
-  company_position: motion graphics designer
+  company_position: motion expert
   company_logo: 
   company_work: 
   twitter:
@@ -110,7 +110,7 @@
   avatar: assets/people/lody-van-buul.jpg
   company: WOON Rotterdam
   company_url: http://www.example.org
-  company_position: tekenaar / ontwerper
+  company_position: bouwkundig kunstenaar
   company_logo: 
   company_work: 
   twitter:
@@ -128,7 +128,7 @@
   avatar: assets/people/lilian-jim.jpg
   company: Lil Studio
   company_url: http://www.example.org
-  company_position: studio creative
+  company_position: drukwerk koningin
   company_logo: 
   company_work: 
   twitter:
@@ -146,7 +146,7 @@
   avatar: assets/people/tijs-nederlof.jpg
   company: Suprmen
   company_url: http://www.suprmen.com
-  company_position: Drones
+  company_position: drone specialist
   company_logo: 
   company_work: 
   twitter: suprmennl
@@ -163,7 +163,7 @@
   avatar: assets/people/maarten-verburg.jpg
   company: 
   company_url: http://www.example.org
-  company_position: front-end developer
+  company_position: digitaalkundige
   company_logo: 
   company_work: 
   twitter:
@@ -181,7 +181,7 @@
   avatar: assets/people/eva-van-steijn.jpg
   company:
   company_url: http://www.example.org
-  company_position: account manager
+  company_position: online tiger
   company_logo: 
   company_work: 
   twitter:
@@ -217,7 +217,7 @@
   avatar: assets/people/company-name.jpg
   company: Cafe Noir
   company_url: 
-  company_position: motiongrapher
+  company_position: filmcrew
   company_logo: 
   company_work: 
   twitter:
@@ -235,7 +235,7 @@
   avatar: assets/people/company-name.jpg
   company:
   company_url: 
-  company_position: designer
+  company_position: cinematograaf
   company_logo: 
   company_work: 
   twitter:
