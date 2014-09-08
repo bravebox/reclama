@@ -14,7 +14,7 @@
   vimeo: 
   facebook: 
   mail: ronald@digitalcreative.nl
-  description: <p>Hi ik ben Ronald, <br/>creatief ondernemer en mede-oprichter van Reclama. Mijn specialisme is digitaal design (ontwerpen voor beeldschermen), denk aan websites en webshops, maar ook apps of videobewerking.</p> <p>Met mijn eenmanszaak Digital Creative werk ik voor merken en reclamebureau’s en word ik ingezet als Creative Director bij ING.</p> <p>Naast mijn bedrijf sta ik altijd open voor creatieve samenwerkingsverbanden.</p>
+  description: "<p>Hi ik ben Ronald, <br/>creatief ondernemer en mede-oprichter van Reclama. Mijn specialisme is digitaal design (ontwerpen voor beeldschermen), denk aan websites en webshops, maar ook apps of videobewerking.</p> <p>Met mijn eenmanszaak Digital Creative werk ik voor merken en reclamebureau’s en word ik ingezet als Creative Director bij ING.</p> <p>Naast mijn bedrijf sta ik altijd open voor creatieve samenwerkingsverbanden.</p>"
 
 - name: Paul Bothof
   avatar: assets/people/paul-bothof.jpg
@@ -32,7 +32,7 @@
   vimeo: 
   facebook: 
   mail: paul@creamigo.nl
-  description:
+  description: "Eigenaar van creAmigo en mede-oprichter van Reclama. In de afgelopen 8 jaar heb ik veel ervaring opgedaan in het bereiken van marketingdoelstellingen voor klanten als: Ministerie van Buitenlandse Zaken, Gemeente Rotterdam, Robeco, Calvé, Stedin, Fiat en Douwe Egberts. Sinds 2013 heb ik mijn eigen bureau en help ik zowel grote als middelgrote organisaties met het opzetten en ombouwen van een communicatiestrategie en deze vertaal ik naar eenduidige communicatie die wordt uitgerold in online en offline campagnes."
   
 - name: Mick Schouten
   avatar: assets/people/mick-schouten.jpg
@@ -45,12 +45,12 @@
   google: https://plus.google.com/+MickSchouten
   reel:
   behance: https://www.behance.net/bravebox
-  behance_user: bravebox
+  behance_user: 
   linkedin: http://nl.linkedin.com/in/bravebox
   vimeo: http://vimeo.com/mickschouten
   facebook: 
   mail: bravebox@gmail.com
-  description: Als designer, front-end developer en motion grapher heb ik de laatste jaren veel ervaring mogen opdoen voor en bij geweldige klanten en studio's. Mijn werk is mijn passie en nieuwe uitdagingen ga ik nooit uit de weg, of dat nou in de vorm is van het volgen van de nieuwste web trends, mezelf bijspijkeren in de nieuwste online technieken of samenwerken met andere creatieven.
+  description: "Als designer, front-end developer en motion grapher heb ik de laatste jaren veel ervaring mogen opdoen voor en bij geweldige klanten en studio's. Mijn werk is mijn passie en nieuwe uitdagingen ga ik nooit uit de weg, of dat nou in de vorm is van het volgen van de nieuwste web trends, mezelf bijspijkeren in de nieuwste online technieken of samenwerken met andere creatieven."
   
 - name: Linda Hirzmann
   avatar: assets/people/linda-hirzmann.jpg
@@ -72,27 +72,27 @@
   
 - name: Thomas Cremers
   avatar: assets/people/thomas-cremers.jpg
-  company: Vicinity Software
-  company_url: http://www.vicinitysoftware.com
-  company_position: software engineer
+  company: VicinitySoftware
+  company_url: http://vicinitysoftware.com
+  company_position: software ontwikkelaar
   company_logo: 
   company_work: 
-  twitter: 
+  twitter: https://twitter.com/vicinitysoftwar
   google: 
   reel:
   behance: 
   behance_user:
-  linkedin: 
+  linkedin: https://www.linkedin.com/pub/thomas-cremers/8/616/764
   vimeo: 
   facebook: 
-  mail: info@vicinitysoftware.com
-  description:
+  mail: thomas@vicinitysoftware.com
+  description: "<p>In de jaren 90 begonnen bij een van de eerste Internet Providers van Nederland als Unix systeem en netwerk beheerder heb ik de groei en innovatie van het Internet  van dichtbij mee gemaakt. Als software ontwikkelaar heb ik voor meerdere internationale startups gewerkt in verschillende programmeer talen voor zo wel web als mobiel.</p> <p>Met 15 jaar ervaring binnen internet technologie is VicinitySoftware niet alleen uw partner voor startup consultancy, maar ook voor een transparant ontwikkel proces van uw idee of product. Bij VicinitySoftware denken wij met u mee en leveren hoogstaande technische en creatieve oplossingen.</p>"
 
 - name: Guido Hirzmann
   avatar: assets/people/guido-hirzmann.jpg
-  company: Motionsnacks
-  company_url: http://www.example.org
-  company_position: motiongrapher
+  company: MotionSnacks
+  company_url: www.motionsnacks.com
+  company_position: motion graphics designer
   company_logo: 
   company_work: 
   twitter:
@@ -100,11 +100,11 @@
   reel: 53702948
   behance: https://www.behance.net/ghi
   behance_user:
-  linkedin: http://nl.linkedin.com/pub/guido-hirzmann/7/237/443
-  vimeo: http://vimeo.com/motionsnacks
-  facebook: 
+  linkedin: https://www.linkedin.com/profile/view?id=21474483
+  vimeo: https://vimeo.com/motionsnacks
+  facebook: https://www.facebook.com/motionsnacks
   mail:
-  description:
+  description: "Ik help bedrijven om hun producten of diensten beter te verkopen door ze te visualiseren en in beweging te zetten."
 
 - name: Lody van Buul
   avatar: assets/people/lody-van-buul.jpg
@@ -157,7 +157,7 @@
   vimeo: https://vimeo.com/user8700785
   facebook: http://www.facebook.com/suprmennl
   mail: tijs@suprmen.com
-  description: <h2>High!</h2> <p>Samen met mijn broers heb ik het bedrijf 'supRmen'. Wij zijn een jong maar bedreven UAV- bedrijf, geboren in Rotterdam. UAV staat voor ‘Unmanned Aerial Vehicle’, in de volksmond ook wel ‘drone’ genoemd. Met onze drones laten wij de wereld vanuit een ander perspectief zien. Een hoger, vernieuwend en cooler perspectief. Dit doen wij overal ter wereld met evenveel plezier, toewijding en professionaliteit. Wij houden van reizen, genieten elke dag van ons werk en leren graag nieuwe mensen kennen.</p>
+  description: "<h2>High!</h2> <p>Samen met mijn broers heb ik het bedrijf 'supRmen'. Wij zijn een jong maar bedreven UAV- bedrijf, geboren in Rotterdam. UAV staat voor ‘Unmanned Aerial Vehicle’, in de volksmond ook wel ‘drone’ genoemd. Met onze drones laten wij de wereld vanuit een ander perspectief zien. Een hoger, vernieuwend en cooler perspectief. Dit doen wij overal ter wereld met evenveel plezier, toewijding en professionaliteit. Wij houden van reizen, genieten elke dag van ons werk en leren graag nieuwe mensen kennen.</p>"
   
 - name: Maarten Verburg
   avatar: assets/people/maarten-verburg.jpg
@@ -176,11 +176,29 @@
   facebook: 
   mail:
   description:
+  
+- name: Eva van Steijn
+  avatar: assets/people/eva-van-steijn.jpg
+  company:
+  company_url: http://www.example.org
+  company_position: account manager
+  company_logo: 
+  company_work: 
+  twitter:
+  google:
+  reel:
+  behance: 
+  behance_user:
+  linkedin: http://nl.linkedin.com/in/evast
+  vimeo: 
+  facebook: 
+  mail:
+  description:    
     
 - name: John Janssen
-  avatar: assets/people/company-name.jpg
+  avatar: assets/people/john-janssen.jpg
   company: Janssen Fotografie
-  company_url: http://www.example.org
+  company_url: http://www.janssenfotografie.nl
   company_position: fotograaf
   company_logo: 
   company_work: 
@@ -192,13 +210,13 @@
   linkedin: 
   vimeo: 
   facebook: 
-  mail:
+  mail: info@janssenfotografie.nl
   description:
     
 - name: Gijs de Groote
   avatar: assets/people/company-name.jpg
   company: Cafe Noir
-  company_url: http://www.example.org
+  company_url: 
   company_position: motiongrapher
   company_logo: 
   company_work: 
@@ -216,8 +234,8 @@
 - name: David Launzpach
   avatar: assets/people/company-name.jpg
   company:
-  company_url: http://www.example.org
-  company_position: my position
+  company_url: 
+  company_position: designer
   company_logo: 
   company_work: 
   twitter:
@@ -231,20 +249,3 @@
   mail:
   description:
 
-- name: Eva van Steijn
-  avatar: assets/people/company-name.jpg
-  company:
-  company_url: http://www.example.org
-  company_position: my position
-  company_logo: 
-  company_work: 
-  twitter:
-  google:
-  reel:
-  behance: 
-  behance_user:
-  linkedin: 
-  vimeo: 
-  facebook: 
-  mail:
-  description:  
