@@ -62,13 +62,13 @@
   twitter: https://twitter.com/bravebox
   google: https://plus.google.com/+MickSchouten
   reel:
-  behance: 
-  behance_user:
-  linkedin: 
+  behance: https://www.behance.net/bravebox
+  behance_user: bravebox
+  linkedin: http://nl.linkedin.com/in/lindahirzmann
   vimeo: 
-  facebook: 
-  mail: bravebox@gmail.com
-  description:
+  facebook: www.facebook.com/bravebox.rotterdam
+  mail: linda@bravebox.nl
+  description: "Hi! Tja uhm... dat is altijd lastig, jezelf beschrijven :-) kijk anders gewoon maar even naar mijn werk, dat ik met gevoel gemaakt heb, want beelden zeggen meer dan 1000 woorden! Als je er vragen of opmerkingen over hebt, ben ik uiteraard enthousiast om er meer over te vertellen!"
   
 - name: Thomas Cremers
   avatar: assets/people/thomas-cremers.jpg
@@ -233,12 +233,12 @@
   
 - name: David Launzpach
   avatar: assets/people/company-name.jpg
-  company:
-  company_url: 
+  company: David werkt
+  company_url: http://vimeo.com/25546154
   company_position: cinematograaf
   company_logo: 
   company_work: 
-  twitter:
+  twitter: 
   google:
   reel:
   behance: 
@@ -246,6 +246,6 @@
   linkedin: 
   vimeo: 
   facebook: 
-  mail:
-  description:
+  mail: launspach@gmail.com
+  description: "David heeft oog voor emotie in bewegend beeld."
 
