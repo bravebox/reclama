@@ -1,0 +1,76 @@
+<svg version="1.1" id="reclama" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+
+	 <defs>
+	 	<style>
+	 		
+	 		#reclama {
+	 			cursor: pointer;
+	 		}
+
+	 		.addScale {
+	 			-webkit-animation: scale 2s forwards;
+	 		}
+
+	 		#r {
+	 			stroke-dasharray: 100;
+				-webkit-animation: dash 2s forwards;
+	 		}
+	 		
+	 		
+	 		@-webkit-keyframes dash {
+		 		0% {
+		 			stroke-dashoffset: 1000;
+		 			fill: white;
+		 			opacity: 0;
+		 			transform: scale(1,1);
+		 		}
+		 		100% {
+		 			stroke-dashoffset: 20;
+		 			fill: yellow;
+		 			opacity: 1;
+		 			transform: scale(1);
+		 		}
+	 		}
+	 		
+	 		@-webkit-keyframes scale {
+		 		0% {
+		 			transform: scale(1);
+		 		}
+		 		50% {
+		 			transform: scale(1.2);
+		 		}
+		 		100% {
+		 			transform: scale(1);
+		 		}
+	 		}	 		
+
+	 	</style>
+	 	<script type="text/javascript">
+
+	 		var clicker = document.querySelector("#reclama");
+
+	 			clicker.addEventListener('click', function(){
+					alert('clicked reclama');	 				
+	 			});
+	 			
+	 			setTimeout(function(){
+	 				clicker.classList.toggle('addScale');
+	 			}, 3000);
+	 	
+	 	</script>
+	 </defs>
+	 
+<path 
+	id="r"
+	fill="none" 
+	stroke="#000" 
+	stroke-width="4" 
+	stroke-miterlimit="10" 
+	
+	d="M32.016,343.709h72.014V239.042h15.434
+	c38.151,26.062,87.03,110.007,153.892,108.938c48.482-0.773,82.165-16.119,94.167-22.101l-34.202-52.682
+	c-9.004,3.849-28.073,14.386-48.389,12.838c-26.928-2.055-52.725-25.633-78.873-49.556c44.15-8.975,76.303-41.869,76.303-87.58
+	c0-67.926-55.3-95.696-111.886-95.696H32.016V343.709z M169.189,115.577c23.578,0,38.581,13.671,38.581,35.888
+	c0,21.36-15.003,35.885-38.581,35.885h-65.16v-71.773H169.189z"/>
+</svg>
