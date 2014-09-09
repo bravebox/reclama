@@ -213,6 +213,24 @@
   mail: info@janssenfotografie.nl
   description:
     
+- name: David Launzpach
+  avatar: assets/people/david-launspach.jpg
+  company: David werkt
+  company_url: 
+  company_position: cinematograaf
+  company_logo: 
+  company_work: 
+  twitter: 
+  google:
+  reel: 25546154
+  behance: 
+  behance_user:
+  linkedin:  
+  vimeo: http://vimeo.com/user7200742
+  facebook: 
+  mail: launspach@gmail.com
+  description: "David heeft oog voor emotie in bewegend beeld."
+  
 - name: Gijs de Groote
   avatar: assets/people/company-name.jpg
   company: Cafe Noir
@@ -230,22 +248,3 @@
   facebook: 
   mail:
   description:
-  
-- name: David Launzpach
-  avatar: assets/people/company-name.jpg
-  company: David werkt
-  company_url: http://vimeo.com/25546154
-  company_position: cinematograaf
-  company_logo: 
-  company_work: 
-  twitter: 
-  google:
-  reel:
-  behance: 
-  behance_user:
-  linkedin: 
-  vimeo: 
-  facebook: 
-  mail: launspach@gmail.com
-  description: "David heeft oog voor emotie in bewegend beeld."
-
