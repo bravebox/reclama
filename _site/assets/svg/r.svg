@@ -3,18 +3,23 @@
 
 	 <defs>
 	 	<style>
-	 		
 	 		#reclama {
 	 			cursor: pointer;
 	 		}
 
 	 		.addScale {
 	 			-webkit-animation: scale 2s forwards;
+	 			-moz-animation: scale 2s forwards;
+	 			-o-animation: scale 2s forwards;
+	 			animation: scale 2s forwards;
 	 		}
 
 	 		#r {
 	 			stroke-dasharray: 100;
 				-webkit-animation: dash 2s forwards;
+				-moz-animation: dash 2s forwards;
+				-o-animation: dash 2s forwards;
+				animation: dash 2s forwards;
 	 		}
 	 		
 	 		
@@ -23,25 +28,42 @@
 		 			stroke-dashoffset: 1000;
 		 			fill: white;
 		 			opacity: 0;
+		 			
 		 			-webkit-transform: scale(1,1);
+		 			-moz-transform: scale(1,1);
+		 			-o-transform: scale(1,1);
+		 			transform: scale(1,1);
 		 		}
 		 		100% {
 		 			stroke-dashoffset: 20;
 		 			fill: yellow;
 		 			opacity: 1;
+		 			
 		 			-webkit-transform: scale(1);
+		 			-moz-transform: scale(1);
+		 			-o-transform: scale(1);
+		 			transform: scale(1);
 		 		}
 	 		}
 	 		
 	 		@-webkit-keyframes scale {
 		 		0% {
 		 			-webkit-transform: scale(1);
+		 			-moz-transform: scale(1);
+		 			-o-transform: scale(1);
+		 			transform: scale(1);
 		 		}
 		 		50% {
 		 			-webkit-transform: scale(1.2);
+		 			-moz-transform: scale(1.2);
+		 			-o-transform: scale(1.2);
+		 			transform: scale(1.2);
 		 		}
 		 		100% {
 		 			-webkit-transform: scale(1);
+		 			-moz-transform: scale(1);
+		 			-o-transform: scale(1);
+		 			transform: scale(1);
 		 		}
 	 		}	 		
 

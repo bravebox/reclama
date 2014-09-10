@@ -230,6 +230,24 @@
   facebook: 
   mail: launspach@gmail.com
   description: "David heeft oog voor emotie in bewegend beeld."
+
+- name: Jeroen Verburgt
+  avatar: assets/people/company-name.jpg
+  company: iClarity
+  company_url: http://www.iclarity.nl
+  company_position: MKB wordpress specialist
+  company_logo: 
+  company_work: 
+  twitter: 
+  google:
+  reel: 
+  behance: 
+  behance_user:
+  linkedin:  
+  vimeo: 
+  facebook: 
+  mail: jeroen@iclarity.nl
+  description: " Ik heb ruim 10 jaar ervaring met het realiseren van websites en online marketing projecten voor zowel corporates, MKB als start-ups, en ben verder groot fan van Wordpress. Ik ben ook eigenaar van het leukste MKB-internet bureau van Rotterdam, iClarity."
   
 - name: Gijs de Groote
   avatar: assets/people/company-name.jpg
