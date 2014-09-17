@@ -109,20 +109,20 @@
 - name: Lody van Buul
   avatar: assets/people/lody-van-buul.jpg
   company: WOON Rotterdam
-  company_url: http://www.example.org
+  company_url: www.woonrotterdam.nl
   company_position: bouwkundig kunstenaar
   company_logo: 
   company_work: 
-  twitter:
+  twitter: https://twitter.com/woonrottterdam
   google:
-  reel:
+  reel: 105660596
   behance: 
   behance_user:
-  linkedin: 
-  vimeo: 
-  facebook: 
-  mail:
-  description:
+  linkedin: https://www.linkedin.com/pub/lody-van-buul/58/a0/b2a
+  vimeo: https://vimeo.com/user32108233
+  facebook: https://www.facebook.com/woondeontwerpwinkel
+  mail: lody@woonrotterdam.nl
+  description: "<p>Hi ik ben Lody,<br/> creatief ondernemer en mede-oprichter van Woon Architecten en Woon de Ontwerpwinkel. We ontwerpen vanuit de gedachte dat het wonen en werken een plezier moet zijn en het zeker niet kostbaar hoeft te zijn. We ontwerpen meubels, interieurs en zelfs woningen.</p> <p>Uiteraard gebruiken wij 3d visuals om de klant het ontwerp duidelijk te maken en inzicht te geven.</p> <p>Naast mijn bedrijf sta ik altijd open voor creatieve samenwerkingsverbanden.</p>"
   
 - name: Lilian Jim
   avatar: assets/people/lilian-jim.jpg
