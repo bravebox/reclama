@@ -119,7 +119,7 @@
   behance: 
   behance_user:
   linkedin: https://www.linkedin.com/pub/lody-van-buul/58/a0/b2a
-  vimeo: https://vimeo.com/user32108233
+  vimeo: https://vimeo.com/woonrotterdam
   facebook: https://www.facebook.com/woondeontwerpwinkel
   mail: lody@woonrotterdam.nl
   description: "<p>Hi ik ben Lody,<br/> creatief ondernemer en mede-oprichter van Woon Architecten en Woon de Ontwerpwinkel. We ontwerpen vanuit de gedachte dat het wonen en werken een plezier moet zijn en het zeker niet kostbaar hoeft te zijn. We ontwerpen meubels, interieurs en zelfs woningen.</p> <p>Uiteraard gebruiken wij 3d visuals om de klant het ontwerp duidelijk te maken en inzicht te geven.</p> <p>Naast mijn bedrijf sta ik altijd open voor creatieve samenwerkingsverbanden.</p>"
@@ -127,7 +127,7 @@
 - name: Lilian Jim
   avatar: assets/people/lilian-jim.jpg
   company: Lil Studio
-  company_url: http://www.example.org
+  company_url: 
   company_position: drukwerk koningin
   company_logo: 
   company_work: 
@@ -162,7 +162,7 @@
 - name: Maarten Verburg
   avatar: assets/people/maarten-verburg.jpg
   company: 
-  company_url: http://www.example.org
+  company_url: 
   company_position: digitaalkundige
   company_logo: 
   company_work: 
@@ -180,7 +180,7 @@
 - name: Eva van Steijn
   avatar: assets/people/eva-van-steijn.jpg
   company:
-  company_url: http://www.example.org
+  company_url: 
   company_position: online expert
   company_logo: 
   company_work: 
@@ -229,7 +229,7 @@
   vimeo: http://vimeo.com/user7200742
   facebook: 
   mail: launspach@gmail.com
-  description: "David heeft oog voor emotie in bewegend beeld."
+  description: "<p>David heeft oog voor emotie in bewegend beeld.</p>"
 
 - name: Jeroen Verburgt
   avatar: assets/people/jeroen-verburgt.jpg
@@ -247,7 +247,7 @@
   vimeo: 
   facebook: 
   mail: jeroen@iclarity.nl
-  description: " Ik heb ruim 10 jaar ervaring met het realiseren van websites en online marketing projecten voor zowel corporates, MKB als start-ups, en ben verder groot fan van Wordpress. Ik ben ook eigenaar van het leukste MKB-internet bureau van Rotterdam, iClarity."
+  description: "<p>Ik heb ruim 10 jaar ervaring met het realiseren van websites en online marketing projecten voor zowel corporates, MKB als start-ups, en ben verder groot fan van Wordpress. Ik ben ook eigenaar van het leukste MKB-internet bureau van Rotterdam, iClarity.</p>"
   
 - name: Gijs de Groote
   avatar: assets/people/company-name.jpg
