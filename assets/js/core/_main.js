@@ -24,6 +24,9 @@ function($, waypoints, Handlebars, lazyload, be, Cycle2_lib, Cycle2_carousel, Cy
 			offset: '50%' // waypoint offset
 		};
 
+
+
+
 	/* Resize
 	------------------------------ */
 		
@@ -36,6 +39,24 @@ function($, waypoints, Handlebars, lazyload, be, Cycle2_lib, Cycle2_carousel, Cy
 			$('.fs').css({height: win_h});
 			return false;
 		};
+
+
+	/* window load
+	------------------------------ */
+
+		$(window).load(function() {
+
+			/* Preload
+			------------------------------ */
+				$('#loader').delay(350).fadeOut('slow', function() {
+					$('body').removeClass('no-scroll');
+				});
+
+			/* Init 
+			------------------------------ */
+				resizeFs();
+
+		});
 
 
 
@@ -118,7 +139,7 @@ function($, waypoints, Handlebars, lazyload, be, Cycle2_lib, Cycle2_carousel, Cy
 					$('#loader').fadeIn('fast');
 					$('body').addClass('no-scroll');
 				// user
-					var user_index = $(this).parent().parent().index();
+					var user_index = $(this).parent().index();
 					var user_be	= reclama[user_index]['behance_user'] || false;
 
 					if(user_be) {
@@ -140,7 +161,6 @@ function($, waypoints, Handlebars, lazyload, be, Cycle2_lib, Cycle2_carousel, Cy
 					});
 			});
 		});
-
 
 
 	/* Behance
@@ -181,19 +201,5 @@ function($, waypoints, Handlebars, lazyload, be, Cycle2_lib, Cycle2_carousel, Cy
 		}
 
 
-
-	/* window load
-	------------------------------ */
-		$(window).load(function() {
-			/* Preload
-			------------------------------ */
-				$('#loader').delay(350).fadeOut('slow', function() {
-					$('body').removeClass('no-scroll');
-				});
-
-			/* Init 
-			------------------------------ */
-				resizeFs();
-		});
 
 });

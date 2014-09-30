@@ -4,7 +4,7 @@
 	name: '../js/app',
 	out: '../js/app.min.js',
 	preserveLicenseComments: false,
-	optimize: 'none',
+	//optimize: 'none',
 	paths: {
 		requireLib: 'lib/require'
 	},
