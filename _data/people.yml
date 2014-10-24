@@ -106,6 +106,24 @@
   mail:
   description: "Ik help bedrijven om hun producten of diensten beter te verkopen door ze te visualiseren en in beweging te zetten."
 
+- name: Martijn
+  avatar: assets/people/martijn.jpg
+  company: 
+  company_url: 
+  company_position: marketing strateeg
+  company_logo: 
+  company_work: 
+  twitter: https://twitter.com/mhendrikxm
+  google:
+  reel: 
+  behance: 
+  behance_user:
+  linkedin: https://www.linkedin.com/pub/martijn-hendrikx/2/119/733
+  vimeo: 
+  facebook: https://www.facebook.com/martijn.hendrikx.90
+  mail: hendrikxm@gmail.com
+  description: "<p>Freelance marketing strateeg. Ik heb de laatste 12 jaar als marketeer gewerkt gewerkt voor grote online en offline adverteerders zoals Coolblue, Hi en Rabobank. Nu ben ik freelance actief om kleine en middelgrote bedrijven te helpen met hun (online) marketing, strategie, positionering en campagnevoering. Mij moet je bellen als je behoefte hebt aan een enthousiast, snel maar goed uitgewerkte marketingadvies, of voor een offline of online campagne.</p>"
+  
 - name: Lody van Buul
   avatar: assets/people/lody-van-buul.jpg
   company: WOON Rotterdam
