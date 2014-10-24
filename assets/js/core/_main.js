@@ -14,6 +14,21 @@ define(
 function($, waypoints, Handlebars, lazyload, be, Cycle2_lib, Cycle2_carousel, Cycle2_fade) {
 	'use strict';
 
+
+	/* Parallax scroll
+	------------------------------ */
+
+        var $window = $(window);
+        $('[data-type="background"]').each(function() {
+            var $bgobj = $(this);
+            $(window).scroll(function() {
+                var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+                var coords = '50% '+ yPos + 'px';
+                    $bgobj.css({ backgroundPosition: coords });
+            });
+        });	
+
+
 	/* Elements
 	------------------------------ */
 		var mobile = (/iphone|ipad|Android|webOS|iPod|BlackBerry|Windows Phone|ZuneWP7/gi).test(navigator.appVersion);
@@ -23,9 +38,6 @@ function($, waypoints, Handlebars, lazyload, be, Cycle2_lib, Cycle2_carousel, Cy
 			body: 'body',
 			offset: '50%' // waypoint offset
 		};
-
-
-
 
 	/* Resize
 	------------------------------ */
