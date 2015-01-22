@@ -142,24 +142,6 @@
   mail: lody@woonrotterdam.nl
   description: "<p>Hi ik ben Lody,<br/> creatief ondernemer en mede-oprichter van Woon Architecten en Woon de Ontwerpwinkel. We ontwerpen vanuit de gedachte dat het wonen en werken een plezier moet zijn en het zeker niet kostbaar hoeft te zijn. We ontwerpen meubels, interieurs en zelfs woningen.</p> <p>Uiteraard gebruiken wij 3d visuals om de klant het ontwerp duidelijk te maken en inzicht te geven.</p> <p>Naast mijn bedrijf sta ik altijd open voor creatieve samenwerkingsverbanden.</p>"
 
-- name: Lilian Jim
-  avatar: assets/people/lilian-jim.jpg
-  company: Lil Studio
-  company_url:
-  company_position: drukwerk koningin
-  company_logo:
-  company_work:
-  twitter:
-  google:
-  reel:
-  behance:
-  behance_user:
-  linkedin:
-  vimeo:
-  facebook:
-  mail:
-  description:
-
 - name: Tijs Nederlof
   avatar: assets/people/tijs-nederlof.jpg
   company: Suprmen
@@ -176,24 +158,6 @@
   facebook: http://www.facebook.com/suprmennl
   mail: tijs@suprmen.com
   description: "<h2>High!</h2> <p>Samen met mijn broers heb ik het bedrijf 'supRmen'. Wij zijn een jong maar bedreven UAV- bedrijf, geboren in Rotterdam. UAV staat voor ‘Unmanned Aerial Vehicle’, in de volksmond ook wel ‘drone’ genoemd. Met onze drones laten wij de wereld vanuit een ander perspectief zien. Een hoger, vernieuwend en cooler perspectief. Dit doen wij overal ter wereld met evenveel plezier, toewijding en professionaliteit. Wij houden van reizen, genieten elke dag van ons werk en leren graag nieuwe mensen kennen.</p>"
-
-- name: Maarten Verburg
-  avatar: assets/people/maarten-verburg.jpg
-  company:
-  company_url:
-  company_position: digitaalkundige
-  company_logo:
-  company_work:
-  twitter:
-  google:
-  reel:
-  behance:
-  behance_user:
-  linkedin:
-  vimeo:
-  facebook:
-  mail:
-  description:
 
 - name: Eva van Steijn
   avatar: assets/people/eva-van-steijn.jpg
@@ -266,3 +230,21 @@
   facebook:
   mail: jeroen@iclarity.nl
   description: "<p>Ik heb ruim 10 jaar ervaring met het realiseren van websites en online marketing projecten voor zowel corporates, MKB als start-ups, en ben verder groot fan van Wordpress. Ik ben ook eigenaar van het leukste MKB-internet bureau van Rotterdam, iClarity.</p>"
+
+- name: Marc van der Veen
+  avatar: assets/people/marc.jpg
+  company: MARCS concept & copy
+  company_url: http://www.marcscc.nl
+  company_position: idee + tekst
+  company_logo:
+  company_work:
+  twitter:
+  google:
+  reel:
+  behance:
+  behance_user:
+  linkedin: https://www.linkedin.com/profile/view?id=1204099&trk=spm_pic
+  vimeo:
+  facebook:
+  mail: info@marcscc.nl
+  description: "<p>Geen idee? Geen zin? Geen nood. Als copywriter ontwikkel ik al jaren - al dan niet in co-creatie - activerende campagnes en (web)teksten voor uiteenlopende klanten. Van startende ondernemers tot gerenommeerde marktleiders.</p>"
