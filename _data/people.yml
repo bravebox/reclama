@@ -163,6 +163,7 @@
   mail:
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
 
+<<<<<<< HEAD
 - name: Eva van Steijn
   avatar: assets/people/company-name.jpg
   company:
@@ -177,3 +178,22 @@
   vimeo:
   mail:
   description: Varius eu numquam reiciendis aute fusce quis sed occaecat nibh, aliquid fuga. Odit senectus nobis sed assumenda assumenda. Officia litora adipiscing litora etiam erat viverra ab sit quis rem, netus mattis hac, sociis expedita tempus sociis aliquet, nostrum eaque, quasi dolorum vero, erat incididunt, molestie, augue euismod hendrerit quam sed sagittis platea turpis quo? Quaerat rutrum. Aliquid. Et, tristique beatae feugiat habitant placerat taciti anim, hymenaeos eaque cum! Vel quaerat, luctus itaque. Fames praesentium phasellus. Curae! Proin nesciunt officiis mollis, animi. Eiusmod felis sociosqu. Possimus alias penatibus provident, class phasellus, inventore eos quis consectetuer nostra eum, conubia wisi, ridiculus senectus.
+=======
+- name: Jeroen Verburgt
+  avatar: assets/people/jeroen-verburgt.jpg
+  company: iClarity
+  company_url: http://www.iclarity.nl
+  company_position: MKB wordpress specialist
+  company_logo: 
+  company_work: 
+  twitter: 
+  google:
+  reel: 
+  behance: 
+  behance_user:
+  linkedin:  
+  vimeo: 
+  facebook: 
+  mail: jeroen@iclarity.nl
+  description: "<p>Ik heb ruim 10 jaar ervaring met het realiseren van websites en online marketing projecten voor zowel corporates, MKB als start-ups, en ben verder groot fan van Wordpress. Ik ben ook eigenaar van het leukste MKB-internet bureau van Rotterdam, iClarity.</p>"
+>>>>>>> parent of f9cba5e... added marc
