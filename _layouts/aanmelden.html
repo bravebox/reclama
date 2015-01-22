@@ -7,7 +7,7 @@ layout: aanmelden
 
 	<head>
 	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
 	    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -147,7 +147,6 @@ layout: aanmelden
 		
 		{% include footer.html %}
 
-		<!--<script src="../assets/js/app.min.js"></script>-->
 		<script src="../assets/js/form/prototype.js?v=3.2.3254" type="text/javascript"></script>
 		<script src="../assets/js/form/vendor/json2.js?v=3.2.3254" type="text/javascript"></script>
 		<script src="../assets/js/form/protoplus.js?v=3.2.3254" type="text/javascript"></script>
@@ -160,6 +159,15 @@ layout: aanmelden
 		      JotForm.highlightInputs = false;
 		      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Email is niet geldig","generalError":"Vul je gegevens in","generalPageError":"There are errors on this page. Please fix them before continuing.","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"Please complete required (*) fields.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","lessThan":"Your score should be less than","maxDigitsError":"The maximum digits allowed is","maxSelectionsError":"The maximum number of selections allowed is","minSelectionsError":"The minimum required number of selections is","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","numeric":"This field can only contain numeric values","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Please wait...","required":"Dit veld is verplicht","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","submissionLimit":"Sorry! Only one entry is allowed.  Multiple submissions are disabled for this form.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
 		   });
+		</script>
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-54241511-1', 'auto');
+		  ga('send', 'pageview');
 		</script>
 		
 	</body>

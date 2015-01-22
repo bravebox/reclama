@@ -9,12 +9,14 @@
 	                <li>
 					{% for member in site.data.people %}
 						<div class="col-md-4 col-sm-6 wp-team-member">
-							<div class="wp-member-avatar">
-								<a class="wp-member-detail" href="#"><span class="icon-plus"></span></a>
-						    	<img alt="{{ member.name }}" src="{{ member.avatar }}" class="img-responsive">
-							</div>
-						    <h2>{{ member.name }}</h2>
-						    <p>{{ member.company_position }}</p>
+							<a class="wp-member-detail" href="#">
+								<div class="wp-member-avatar">
+									<span class="icon-plus"></span>
+							    	<img alt="{{ member.name }}" src="{{ member.avatar }}" class="img-responsive">
+								</div>
+							    <h2>{{ member.name }}</h2>
+							    <p>{{ member.company_position }}</p>
+						    </a>
 						</div>					  
 					{% endfor %}
 					</li>

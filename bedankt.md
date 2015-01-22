@@ -1,5 +1,5 @@
 ---
 layout: bedankt
-title: bedankt
+title: Bedankt!
 permalink: /bedankt/
 ---

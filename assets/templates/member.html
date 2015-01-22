@@ -6,70 +6,121 @@
 		</a>
 
 		<div class="mc-body">
-			<div class="row col-md-12">
-				
-				<div class="wp-member-avatar">
-			    	<img alt="{{ member.name }}" src="{{ avatar }}" class="img-responsive">
+
+			<div class="member-text cf">
+				<div class="wp-member-avatar cf">
+			    	<img alt="{{member.name}}" src="{{member.avatar}}" class="img-responsive">
 				</div>
+				<div class="cf">
+					<h2>{{member.name}}</h2>
+					<p>{{member.company_position }}</p>
+					<p>{{{member.description}}}</p>
+				</div>
+			</div>
+
+			{{#if be}}
+			<div class="cf">
+				<h3 class="arrow cf">Laatste werk op Behance</h3>
+				<div class="member-overflow-effect cf">
+					<div class="slider-button-group nav-growpop" id="member-slider">
+        				<a class="slide-prev" href="#">
+        					<span class="icon-wrap">
+        						<span class="icon-arrow-left3"></span>
+        					</span>
+        				</a>
+        				<a class="slide-next" href="#">
+        					<span class="icon-wrap">
+        						<span class="icon-arrow-right3"></span>
+        					</span>
+        				</a>
+        			</div>					
+    				<div id="member-slider" class="cycle-slider" 
+    					 data-cycle-fx="carousel"
+    					 data-cycle-timeout="3000"
+    					 data-cycle-carousel-visible="3"
+    				     data-cycle-next="#member-slider .slide-next"
+    				     data-cycle-prev="#member-slider .slide-prev"
+    					 data-cycle-slides="> div.slide"
+    					 data-cycle-carousel-fluid="true">
+						{{#each projects}}        					
+    						<div class="slide">
+								<a href="{{url}}" target="_blank">
+									<img src="{{this.covers.[404]}}" alt="{{name}}">
+								</a>
+    						</div>
+    					{{/each}}
+    				</div>					
+				</div>
+			</div>
+			{{/if}}
+			
+			{{#if member.reel}}
+			<div class="cf">
+				<h3 class="cf"></h3>
+				<div class="fit">
+					<iframe src="//player.vimeo.com/video/{{member.reel}}?color=f07f3c" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div>
+			{{/if}}
 				
-				<h2>{{name}}</h2>
-				<p>{{ company_position }} <!--at {{ company }}--></p>
-				<p>{{{description}}}</p>
-				
-				<h3 class="arrow">Contact of follow</h3>
-				<ul class="social-buttons">
-					{{#if facebook}}
-					<li>
-						<a class="social-btn" href="{{facebook}}" target="_blank">
-							<span class="icon-facebook"></span>
-						</a>
-					</li>
-					{{/if}}
-					{{#if twitter}}
-					<li>
-						<a class="social-btn" href="{{twitter}}" target="_blank">
-							<span class="icon-twitter"></span>
-						</a>
-					</li>
-					{{/if}}
-					{{#if google}}
-					<li>
-						<a class="social-btn" href="{{google}}" target="_blank">
-							<span class="icon-googleplus"></span>
-						</a>
-					</li>
-					{{/if}}
-					{{#if linkedin}}
-					<li>
-						<a class="social-btn" href="{{linkedin}}" target="_blank">
-							<span class="icon-linkedin"></span>
-						</a>
-					</li>
-					{{/if}}
-					{{#if behance}}
-					<li>
-						<a class="social-btn" href="{{behance}}" target="_blank">
-							<span class="icon-behance"></span>
-						</a>
-					</li>
-					{{/if}}
-					{{#if vimeo}}
-					<li>
-						<a class="social-btn" href="{{vimeo}}" target="_blank">
-							<span class="icon-vimeo"></span>
-						</a>
-					</li>
-					{{/if}}
-					{{#if mail}}
-					<li>
-						<a class="social-btn" href="mailto:{{mail}}">
-							<span class="icon-mail"></span>
-						</a>
-					</li>
-					{{/if}}
-				</ul>
+			<div class="member-text cf">
+				<div class="cf">
+					<h3 class="arrow">Contact of follow</h3>
+					<ul class="social-buttons">
+						{{#if member.facebook}}
+						<li>
+							<a class="social-btn" href="{{member.facebook}}" target="_blank">
+								<span class="icon-facebook"></span>
+							</a>
+						</li>
+						{{/if}}
+						{{#if member.twitter}}
+						<li>
+							<a class="social-btn" href="{{member.twitter}}" target="_blank">
+								<span class="icon-twitter"></span>
+							</a>
+						</li>
+						{{/if}}
+						{{#if member.google}}
+						<li>
+							<a class="social-btn" href="{{member.google}}" target="_blank">
+								<span class="icon-googleplus"></span>
+							</a>
+						</li>
+						{{/if}}
+						{{#if member.linkedin}}
+						<li>
+							<a class="social-btn" href="{{member.linkedin}}" target="_blank">
+								<span class="icon-linkedin"></span>
+							</a>
+						</li>
+						{{/if}}
+						{{#if member.behance}}
+						<li>
+							<a class="social-btn" href="{{member.behance}}" target="_blank">
+								<span class="icon-behance"></span>
+							</a>
+						</li>
+						{{/if}}
+						{{#if member.vimeo}}
+						<li>
+							<a class="social-btn" href="{{member.vimeo}}" target="_blank">
+								<span class="icon-vimeo"></span>
+							</a>
+						</li>
+						{{/if}}
+						{{#if member.mail}}
+						<li>
+							<a class="social-btn" href="mailto:{{member.mail}}">
+								<span class="icon-mail"></span>
+							</a>
+						</li>
+						{{/if}}
+					</ul>
+				</div>
 
 			</div>
 		</div>
+		
 	</div>
 </div>
