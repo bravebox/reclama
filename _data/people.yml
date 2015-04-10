@@ -53,7 +53,7 @@
   description: "Als designer, front-end developer en motion grapher heb ik de laatste jaren veel ervaring mogen opdoen voor en bij geweldige klanten en studio's. Mijn werk is mijn passie en nieuwe uitdagingen ga ik nooit uit de weg, of dat nou in de vorm is van het volgen van de nieuwste web trends, mezelf bijspijkeren in de nieuwste online technieken of samenwerken met andere creatieven."
 
 - name: Linda Hirzmann
-  avatar: assets/people/linda-hirzmann.jpg
+  avatar: assets/people/linda-hirzmann.png
   company: Bravebox
   company_url: http://www.bravebox.nl
   company_position: grafisch designer
@@ -159,24 +159,6 @@
   mail: tijs@suprmen.com
   description: "<h2>High!</h2> <p>Samen met mijn broers heb ik het bedrijf 'supRmen'. Wij zijn een jong maar bedreven UAV- bedrijf, geboren in Rotterdam. UAV staat voor ‘Unmanned Aerial Vehicle’, in de volksmond ook wel ‘drone’ genoemd. Met onze drones laten wij de wereld vanuit een ander perspectief zien. Een hoger, vernieuwend en cooler perspectief. Dit doen wij overal ter wereld met evenveel plezier, toewijding en professionaliteit. Wij houden van reizen, genieten elke dag van ons werk en leren graag nieuwe mensen kennen.</p>"
 
-- name: Eva van Steijn
-  avatar: assets/people/eva-van-steijn.jpg
-  company:
-  company_url:
-  company_position: online expert
-  company_logo:
-  company_work:
-  twitter:
-  google:
-  reel:
-  behance:
-  behance_user:
-  linkedin: http://nl.linkedin.com/in/evast
-  vimeo:
-  facebook:
-  mail:
-  description:
-
 - name: John Janssen
   avatar: assets/people/john-janssen.jpg
   company: Janssen Fotografie
@@ -193,6 +175,41 @@
   vimeo:
   facebook:
   mail: info@janssenfotografie.nl
+  description:
+
+- name: Ammar Al-Chalabi
+  avatar: assets/people/ammar.png
+  company: Ammar productions
+  company_url: http://www.ammar.nl
+  company_position: illustrator
+  company_logo:
+  company_work:
+  twitter: zombieburger
+  google: https://plus.google.com/105030275457689830480/
+  behance:
+  behance_user:
+  linkedin: https://www.linkedin.com/profile/view?id=23118633&trk=nav_responsive_tab_profile_pic
+  vimeo:
+  facebook: https://www.facebook.com/ammar.alchalabi
+  mail: a.alchalabi@gmail.com
+  description: "<p>Naast jaren gewerkt te hebben als grafisch ontwerper voor bedrijven als MTV. TMF en de SBS groep ben ik altijd bezig geweest met illustreren. Met illustratie is het belangrijk dat je een eigen stijl neerzet maar ook de wensen van de klant respecteert. Door hiermee te werken heb ik bijvoorbeeld opdrachten gemaakt voor Dierenpark Amersfoort en Benny Vreden kinderproducties.</p>"
+
+- name: Eva van Steijn
+  avatar: assets/people/eva-van-steijn.jpg
+  company:
+  company_url:
+  company_position: online expert
+  company_logo:
+  company_work:
+  twitter:
+  google:
+  reel:
+  behance:
+  behance_user:
+  linkedin: http://nl.linkedin.com/in/evast
+  vimeo:
+  facebook:
+  mail:
   description:
 
 - name: David Launspach
