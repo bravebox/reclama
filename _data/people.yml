@@ -37,19 +37,19 @@
 - name: Mick Schouten
   avatar: assets/people/mick-schouten.jpg
   company: Bravebox
-  company_url: http://www.bravebox.nl
-  company_position: css-architect
+  company_url: http://www.bravebox.io
+  company_position: front-end developer
   company_logo:
   company_work:
   twitter: https://twitter.com/bravebox
   google: https://plus.google.com/+MickSchouten
   reel:
-  behance: https://www.behance.net/bravebox
-  behance_user: bravebox
+  behance:
+  behance_user:
   linkedin: http://nl.linkedin.com/in/bravebox
   vimeo: http://vimeo.com/mickschouten
   facebook:
-  mail: bravebox@gmail.com
+  mail: mick@bravebox.io
   description: "Als designer, front-end developer en motion grapher heb ik de laatste jaren veel ervaring mogen opdoen voor en bij geweldige klanten en studio's. Mijn werk is mijn passie en nieuwe uitdagingen ga ik nooit uit de weg, of dat nou in de vorm is van het volgen van de nieuwste web trends, mezelf bijspijkeren in de nieuwste online technieken of samenwerken met andere creatieven."
 
 - name: Linda Hirzmann
