@@ -1,0 +1,32 @@
+{
+  "name": "reclama",
+  "version": "1.0.0",
+  "authors": [
+    "Mick Schouten <bravebox@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "parsleyjs": "~2.1.3",
+    "matchHeight": "~0.6.0",
+    "instafeed.js": "~1.4.0",
+    "slick-carousel": "~1.5.5",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "bowser": "~0.7.3",
+    "handlebars": "~3.0.3",
+    "jquerymy": "~1.1.9",
+    "director": "~1.2.8"
+  },
+  "devDependencies": {
+    "highlightjs": "^9.2.0",
+    "slick-carousel": "slick.js#^1.5.9"
+  }
+}

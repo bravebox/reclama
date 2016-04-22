@@ -194,42 +194,6 @@
   mail: a.alchalabi@gmail.com
   description: "<p>Naast jaren gewerkt te hebben als grafisch ontwerper voor bedrijven als MTV. TMF en de SBS groep ben ik altijd bezig geweest met illustreren. Met illustratie is het belangrijk dat je een eigen stijl neerzet maar ook de wensen van de klant respecteert. Door hiermee te werken heb ik bijvoorbeeld opdrachten gemaakt voor Dierenpark Amersfoort en Benny Vreden kinderproducties.</p>"
 
-- name: Eva van Steijn
-  avatar: assets/people/eva-van-steijn.jpg
-  company:
-  company_url:
-  company_position: online expert
-  company_logo:
-  company_work:
-  twitter:
-  google:
-  reel:
-  behance:
-  behance_user:
-  linkedin: http://nl.linkedin.com/in/evast
-  vimeo:
-  facebook:
-  mail:
-  description:
-
-- name: David Launspach
-  avatar: assets/people/david-launspach.jpg
-  company: David werkt
-  company_url:
-  company_position: documentairemaker
-  company_logo:
-  company_work:
-  twitter:
-  google:
-  reel: 25546154
-  behance:
-  behance_user:
-  linkedin:
-  vimeo: http://vimeo.com/user7200742
-  facebook:
-  mail: launspach@gmail.com
-  description: "<p>David heeft oog voor emotie in bewegend beeld.</p>"
-
 - name: Jeroen Verburgt
   avatar: assets/people/jeroen-verburgt.jpg
   company: iClarity
@@ -247,21 +211,3 @@
   facebook:
   mail: jeroen@iclarity.nl
   description: "<p>Ik heb ruim 10 jaar ervaring met het realiseren van websites en online marketing projecten voor zowel corporates, MKB als start-ups, en ben verder groot fan van Wordpress. Ik ben ook eigenaar van het leukste MKB-internet bureau van Rotterdam, iClarity.</p>"
-
-- name: Marc van der Veen
-  avatar: assets/people/marc.jpg
-  company: MARCS concept & copy
-  company_url: http://www.marcscc.nl
-  company_position: idee + tekst
-  company_logo:
-  company_work:
-  twitter:
-  google:
-  reel:
-  behance:
-  behance_user:
-  linkedin: https://www.linkedin.com/profile/view?id=1204099&trk=spm_pic
-  vimeo:
-  facebook:
-  mail: info@marcscc.nl
-  description: "<p>Geen idee? Geen zin? Geen nood. Als copywriter ontwikkel ik al jaren - al dan niet in co-creatie - activerende campagnes en (web)teksten voor uiteenlopende klanten. Van startende ondernemers tot gerenommeerde marktleiders.</p>"

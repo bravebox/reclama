@@ -1,0 +1,51 @@
+/// Background Horizontal
+/// @param {Color} $s [#3C3C3C] - Start Color
+/// @param {Color} $e [#999999] - End Color
+
+@mixin vui-background-horizontal($s: '', $e: '') {
+  background-color: $s;
+  background-image: -webkit-gradient(linear, left top, right top, from($s), to($e));
+  background-image: -webkit-linear-gradient(left, $s, $e);
+  background-image: -moz-linear-gradient(left, $s, $e);
+  background-image: -ms-linear-gradient(left, $s, $e);
+  background-image: -o-linear-gradient(left, $s, $e);
+  background-image: linear-gradient(left, $s, $e);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$s}', endColorStr='#{$e}', gradientType='1');
+}
+
+/// Background Radial
+/// @param {Color} $s [#3C3C3C] - Start Color
+/// @param {Percentage} $start [0%] - Start position
+/// @param {Color} $e [#999999] - End Color
+/// @param {Percentage} $end [100%] - End position
+
+@mixin vui-background-radial($s: '', $start: 0%, $e: '', $end:100%) {
+  background: -moz-radial-gradient(center, ellipse cover, $s $start, $e $end);
+  background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop($start, $s), color-stop($end, $e));
+  background: -webkit-radial-gradient(center, ellipse cover, $s $start, $e $end);
+  background: -o-radial-gradient(center, ellipse cover, $s $start, $e $end);
+  background: -ms-radial-gradient(center, ellipse cover, $s $start, $e $end);
+  background: radial-gradient(ellipse at center, $s $start, $e $end);
+}
+
+/// Background Size
+/// @param {Size} $width [100%] - Width
+/// @param {Size} $width [$width] - Height
+/// @require {mixin} vui-prefix
+
+@mixin vui-background-size($width: 100%, $height: $width) {
+  @if type-of($width) == 'number' and $height != null {
+    @include vui-prefix('background-size', $width $height);
+  } @else {
+    @include vui-prefix('background-size', $width);
+  }
+}
+
+/// Background Color Opacity
+/// @param {Color} $color [100%] - Color
+/// @param {Double} $opacity [0.85] - Opacity
+
+@mixin vui-background-opacity($color: '', $opacity: .85) {
+  background: $color;
+  background: rgba($color, $opacity);
+}

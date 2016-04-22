@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	{% include head.html %}
+
+	<body id="top">
+
+		<div class="l-wrap">
+		  <div class="l-menu-trigger">
+		    <a href="#" class="animated-lin">
+		      <span></span>
+					<span></span>
+		    </a>
+		  </div>
+		  <div class="l-viewport">
+		    <div class="l-view-menu">
+		      <div class="l-view-menu__body">
+		        <h4 class="l-loading-text">Loading...</h4>
+						<div class="l-view-menu__content">
+			        <div class="l-view-address">
+								<strong>Reclama</strong></br>
+			          Goudsesingel 70 / </br>
+								Unit 3.74<br/>
+			          3011KD Rotterdam<br/>
+			          Nederland
+			        </div>
+			        <ul class="l-view-navigation" data-route-links>
+			          <li><a href="/#/hi">Home</a></li>
+			          <li><a href="/#/projects">Projects</a></li>
+			          <li><a href="/#/people">People</a></li>
+			          <li><a href="/#/contact">Contact</a></li>
+			        </ul>
+						</div>
+						<div class="l-view-gallery hidden-xs">
+							[gallery]
+						</div>
+		      </div>
+		    </div>
+		    <div class="l-view-body">
+					<section class="l-view" data-route="hi" style="display: none;">hi</section>
+					<section class="l-view" data-route="project" style="display: none;">project</section>
+					<section class="l-view" data-route="people" style="display: none;">people</section>
+					<section class="l-view" data-route="contact" style="display: none;">contact</section>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
+		<script>var reclama = [{% for member in site.data.people %} { "name": "{{ member.name }}", "avatar": "{{ member.avatar }}", "company": "{{ member.company }}", "company_url": "{{ member.company_url }}", "company_position": "{{ member.company_position }}", "company_logo": "{{ member.company_logo }}", "company_work": "{{ member.company_work }}", "twitter": "{{ member.twitter }}", "google": "{{ member.google }}", "behance_user": "{{ member.behance_user }}", "behance": "{{ member.behance }}", "linkedin": "{{ member.linkedin }}", "facebook": "{{ member.facebook }}", "vimeo": "{{ member.vimeo }}", "reel": "{{ member.reel }}", "mail": "{{ member.mail }}", "description": "{{ member.description }}" }, {% endfor %} {}];</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+		<script src="assets/js/app.min.js"></script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-54241511-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	</body>
+</html>

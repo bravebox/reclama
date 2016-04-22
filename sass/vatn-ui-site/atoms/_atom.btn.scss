@@ -1,0 +1,25 @@
+/* VUI btn's
+ * -----------------------------------------------------------------------------
+ *
+*/
+
+.vui-btn {
+  @extend %vui-btn;
+}
+
+$vui-buttons: (
+  'vui-btn-main':       ( vui-map-get('vui-btn-color'), vui-map-get('vui-btn-bg-color'), vui-map-get('vui-btn-border'), vui-map-get('vui-btn-border-radius')  ),
+  'vui-btn-warning':    ( #fff, vui-map-get('vui-color-warning'), vui-map-get('vui-color-warning'), vui-map-get('vui-btn-border-radius')  ),
+  'vui-btn-approved':   ( #fff, vui-map-get('vui-color-approved'), vui-map-get('vui-color-approved'), vui-map-get('vui-btn-border-radius')  )
+);
+
+@each $name, $specs in $vui-buttons {
+  $color: nth($specs, 1);
+  $bg-color: nth($specs, 2);
+  $border: nth($specs, 3);
+  $border-radius: nth($specs, 4);
+  
+  .#{$name} {
+    @include vui-btn-variant( $color, $bg-color, $border, $border-radius  );
+  }
+}

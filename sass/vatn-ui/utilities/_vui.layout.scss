@@ -1,0 +1,35 @@
+.float-r { float: right; }
+.float-l { float: left; }
+
+.margin-small { margin: .5rem; }
+.margin-medium { margin: 1.8rem; }
+.margin-large { margin: 2.8rem; }
+
+.margin-b-small { margin-bottom: .5rem; }
+.margin-b-medium { margin-bottom: 1.8rem; }
+.margin-b-large { margin-bottom: 2.8rem; }
+
+//
+///
+
+.container.no-bleed,
+.container-fluid.no-bleed{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row.no-gutter,
+.row-fluid.no-gutter {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+//.row.no-gutter [class*='col-']:not(:first-child),
+//.row.no-gutter [class*='col-']:not(:last-child),
+//.row-fluid.no-gutter [class*='col-']:not(:first-child),
+//.row-fluid.no-gutter [class*='col-']:not(:last-child) {
+.row.no-gutter [class*='col-'],
+.row-fluid.no-gutter [class*='col-'] {
+	padding-right: 0;
+	padding-left: 0;
+}

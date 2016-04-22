@@ -1,0 +1,15 @@
+{
+  "name": "Downloadify",
+  "homepage": "https://github.com/dcneiner/Downloadify",
+  "version": "0.2.1",
+  "_release": "0.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.1",
+    "commit": "f96cbe73d27f3b61353743d1d2e860d57a336907"
+  },
+  "_source": "git://github.com/dcneiner/Downloadify.git",
+  "_target": "~0.2.1",
+  "_originalSource": "Downloadify",
+  "_direct": true
+}

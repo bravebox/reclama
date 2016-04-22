@@ -1,0 +1,96 @@
+// susy
+$vui-grid: (
+  'columns': vui-map-get(vui-susy-columns),
+  'gutter': .5rem,
+  'global-box-sizing': vui-map-get(vui-susy-container)
+);
+
+//'debug': (
+//  'image': show,
+//  'color': rgba(#bada55, .50),
+//  'output': background,
+//  'toggle': top right
+//)
+
+@include with-layout($vui-grid) {
+
+  .vui-container {
+    @include container(1170px);
+  }
+
+  .vui-container-fluid {
+    @include container();
+  }
+
+  .vui-container-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .vui-row {
+    @include vui-clearfix();
+  }
+
+  %mobile {
+    @include span(12);
+  }
+
+  @for $i from 1 through vui-map-get(vui-susy-columns) {
+    .vui-col-#{$i} {
+      &::before {
+        content: ".vui-col-#{$i}";
+      }
+      @extend %mobile;
+      @include breakpoint( vui-map-get('vui-mobile-landscape') ) {
+        @include span($i);
+      }
+    }
+    .vui-col-#{$i}-first {
+      &::before {
+        content: ".vui-col-#{$i}-first";
+      }
+      @extend %mobile;
+      @include breakpoint( vui-map-get('vui-mobile-landscape') ) {
+        @include span($i first);
+      }
+    }
+    .vui-col-#{$i}-last {
+      &::before {
+        content: ".vui-col-#{$i}-last";
+      }
+      @extend %mobile;
+      @include breakpoint( vui-map-get('vui-mobile-landscape') ) {
+        @include span($i last);
+      }
+    }
+  }
+
+  .vui-grid {
+    @include vui-clearfix();
+  }
+
+  .vui-grid-item {
+    @include gallery(6 no-gutters);
+    @media (min-width: 600px) {
+      @include gallery(4);
+    }
+    @media (min-width: 800px) {
+      @include gallery(3);
+    }
+  }
+}
+
+// debug
+div[class^="vui-col-"] {
+  @extend .text-truncate;
+  background: #ffff00;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+div[class^="vui-grid-"] {
+  @extend .text-truncate;
+  background: red;
+  height: 200px;
+  margin-bottom: 1rem;
+}

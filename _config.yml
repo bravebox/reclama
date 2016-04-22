@@ -4,9 +4,13 @@ email: bravebox@gmail.com
 description: "We are Creativity. Reclama is een Rotterdams agentschap van creatieve ondernemers."
 baseurl: ""
 url: "http://www.reclama.nl"
-twitter_username: bravebox
-github_username:  bravebox
+
+address: "Goudsesingle 70 Unit 3.74"
+postalcode: "3011 KD"
+town: "Rotterdam"
+country: "Nederland"
 
 # Build settings
+exclude: ['config.rb', '.sass-cache/', '.temp/', 'sass/', 'scripts/']
 markdown: kramdown
 permalink: pretty

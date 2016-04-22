@@ -1,0 +1,61 @@
+/// Box
+/// @param {*} $orient [horizontal] - Orientation
+/// @param {*} $pack [center] - Pack
+/// @param {*} $align [center] - Align
+/// @require {mixin} vui-prefix
+
+@mixin vui-box($orient: horizontal, $pack: center, $align: center) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+
+  @include vui-prefix('box-orient', $orient);
+  @include vui-prefix('box-pack', $pack);
+  @include vui-prefix('box-align', $align);
+}
+
+/// Box RGBA
+/// @param {Integer} $r [60] - Red
+/// @param {Integer} $g [3] - Green
+/// @param {Integer} $b [12] - Blue
+/// @param {Double} $opacity [0.23] - Opacity
+/// @param {Color} $color [#3C3C3C] - Color
+
+@mixin vui-box-rgba($r: 60, $g: 3, $b: 12, $opacity: .23, $color: '') {
+  background-color: transparent;
+  background-color: rgba($r, $g, $b, $opacity);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$color}',endColorstr='#{$color}');
+            zoom: 1;
+}
+
+/// Box Shadow
+/// @param {Size} $x [2px] - X
+/// @param {Size} $y [2px] - Y
+/// @param {Size} $blur [5px] - Blur
+/// @param {Color} $color [rgba(0,0,0,.4)] - Color
+/// @param {Boolean} $inset - Inset
+
+@mixin vui-box-shadow($x: 2px, $y: 2px, $blur: 5px, $color: rgba(0, 0, 0, .4), $inset: '') {
+  @if ($inset != '') {
+    @include vui-prefix('box-shadow', $inset $x $y $blur $color);
+  } @else {
+    @include vui-prefix('box-shadow', $x $y $blur $color);
+  }
+}
+
+
+/// Box Sizing
+/// @param {*} $type [border-box] - Type
+/// @require {mixin} vui-prefix
+
+@mixin vui-box-sizing($type: border-box) {
+  @include vui-prefix('box-sizing', $type);
+}
+
+/// Flex
+/// @param {Integer} $value [1] - Value
+/// @require {mixin} vui-prefix
+
+@mixin vui-flex($value: 1) {
+  @include vui-prefix('box-flex', $value);
+}

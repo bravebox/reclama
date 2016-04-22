@@ -1,0 +1,23 @@
+$asset-base-path: '..' !default;
+
+// a helper function to create easier asset-paths
+/// @param {*} $type - Type of asset
+/// @param {*} $file - Relative path to file
+
+@function vui-asset($type, $file) {
+  @return url($asset-base-path + '/' + $type + '/' + $file);
+}
+
+// image
+/// @param {*} $file - Relative path to file
+
+@function image($file) {
+  @return vui-asset('img', $file);
+}
+
+// font
+/// @param {*} $file - Relative path to file
+
+@function font($file) {
+  @return vui-asset('fonts', $file);
+}

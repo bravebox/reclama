@@ -1,0 +1,87 @@
+// Global styles
+/// ----------------------------------------------------------------------------
+///
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  background: vui-map-get('vui-bg-color');
+  color: vui-map-get('vui-font-color');
+  cursor: vui-map-get('vui-cursor-auto-value');
+  font-family: vui-map-get('vui-font-family-sans-serif');
+  font-style: vui-map-get('vui-font-style');
+  font-weight: vui-map-get('vui-font-weight');
+  line-height: vui-map-get('vui-line-height');
+  margin: vui-map-get('vui-margin-reset');
+  padding: vui-map-get('vui-padding-reset');
+}
+
+// Paragraph
+/// ----------------------------------------------------------------------------
+
+p {
+  margin: 0 0 ms(-1) 0;
+  &.vui-p-leader {
+    font-size: ms(1);
+  }
+}
+
+// headings
+/// ----------------------------------------------------------------------------
+
+%heading-font {
+  font-family: vui-map-get('vui-font-family-serif');
+  font-weight: vui-map-get('vui-font-weight');
+  line-height: vui-map-get('vui-line-height');
+  color: vui-map-get('vui-heading-font-color');
+  margin-top: vui-map-get('vui-heading-margin-t');
+  margin-bottom: vui-map-get('vui-heading-margin-b');
+}
+
+$headings: h6, h5, h4, h3, h2, h1;
+
+@for $i from 1 through length($headings) {
+  #{nth($headings, $i)} {
+    font-size: ms($i - 1);
+    //line-height: #{1 + $i/10};
+    line-height: 1.2;
+    margin: 0 0 ms($i * -1) 0;
+  }
+}
+
+small {
+  color: vui-map-get('vui-heading-small-font-color');
+  font-weight: normal;
+  line-height: 1;
+  font-size: 65%;
+}
+
+// special headings
+/// ----------------------------------------------------------------------------
+
+.vui-h1-vw {
+  font-size: 11vw;
+  line-height: 1.2;
+
+  @include breakpoint( vui-map-get('vui-tablet-wide') ) {
+    font-size: 8vw;
+  }
+
+  @include breakpoint( vui-map-get('vui-widescreen') ) {
+    font-size: 4vw;
+  }
+}

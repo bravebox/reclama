@@ -1,0 +1,92 @@
+// Modular scale base
+  $ms-base: 1em;
+  $ms-ratio: 1.5;
+
+// vui-core
+  $vui-core: (
+    // Body and font styles
+      'vui-font-size': 62.5%,
+      'vui-font-rem': 1,
+      'vui-line-height': 1.6,
+      'vui-bg-color': #fff,
+
+      'vui-font-family-sans-serif': #{'"Roboto", Arial, sans-serif'},
+      'vui-font-family-serif': #{'Georgia, Cambria, "Times New Roman", Times, serif'},
+      'vui-font-family-monospace': #{'Consolas, "Liberation Mono", Courier, monospace'},
+
+      'vui-font-color': #333,
+      'vui-font-style': normal,
+      'vui-font-weight': normal,
+
+      'vui-paragraph-margin-b': .5rem,
+
+      'vui-heading-font-color': #666,
+      'vui-heading-line-height': 1.2,
+      'vui-heading-small-font-color': #999,
+      'vui-heading-margin-t': .2rem,
+      'vui-heading-margin-b': .5rem,
+
+      'vui-headings': (
+        'h1': (
+          'font-size': 2.375
+        ),
+        'h2': (
+          'font-size': 2
+        ),
+        'h3': (
+          'font-size': 1.500
+        ),
+        'h4': (
+          'font-size': 1.250
+        ),
+        'h5': (
+          'font-size': 1.125
+        ),
+        'h6': (
+          'font-size': 1
+        ),
+        '.custom-heading': (
+          'font-size': 2,
+          'color': red
+        )
+      ),
+
+      'vui-base-link-color': #222,
+      'vui-base-link-color-hover': #111,
+
+      'vui-margin-reset': 0,
+      'vui-padding-reset': 0,
+
+    // Colors
+      'vui-color-disabled': #ececec,
+      'vui-color-warning': #ff1d25,
+      'vui-color-approved': #a0c5a0,
+
+    // Btn
+      'vui-btn-color': #333,
+      'vui-btn-bg-color': #fff,
+      'vui-btn-border': solid 1px,
+      'vui-btn-border-radius': .1rem,
+      'vui-btn-padding-h': .4rem,
+      'vui-btn-padding-v': 1.4rem,
+      'vui-btn-font-size': 1.4rem,
+
+    // Breakpoints
+      'vui-mobile-landscape': 30rem, // 480px
+      'vui-tablet': 40rem, // 640px
+      'vui-tablet-wide': 48rem, // 768px
+      'vui-desktop': 64rem, // 1024px
+      'vui-widescreen': 71.25rem, // 1140px
+      'vui-widescreen-wide': 84rem,
+
+    // Susy
+      'vui-susy-columns': 12,
+      'vui-susy-gutters': 1 / 4,
+      'vui-susy-container': 71.25rem,
+      'vui-susy-box-sizing': border-box,
+
+    // misc
+      'vui-cursor-auto-value': auto,
+      'vui-cursor-disabled': not-allowed,
+      'vui-color-opacity': .4
+  );

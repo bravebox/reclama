@@ -1,0 +1,65 @@
+/// Border Radius
+/// @param {Size} $radius [5px] - Radius
+/// @require {mixin} vui-prefix
+
+@mixin vui-border-radius($radius: 5px) {
+    @include vui-prefix('border-radius', $radius);
+}
+
+/// Border Radius Separate
+/// @param {Size} $tl [5px] - Top Left
+/// @param {Size} $tr [5px] - Top Right
+/// @param {Size} $bl [5px] - Bottom Left
+/// @param {Size} $br [5px] - Bottom Right
+
+@mixin vui-border-radius-separate($tl: 5px, $tr: 5px, $bl: 5px, $br: 5px) {
+  -webkit-border-top-left-radius: $tl;
+  -webkit-border-top-right-radius: $tr;
+  -webkit-border-bottom-right-radius: $br;
+  -webkit-border-bottom-left-radius: $bl;
+
+  -moz-border-radius-topleft: $tl;
+  -moz-border-radius-topright: $tr;
+  -moz-border-radius-bottomright: $br;
+  -moz-border-radius-bottomleft: $bl;
+
+  border-top-left-radius: $tl;
+  border-top-right-radius: $tr;
+  border-bottom-right-radius: $br;
+  border-bottom-left-radius: $bl;
+}
+
+/// Outline Radius
+/// @param {Size} $radius [5px] - Radius
+/// @require {mixin} vui-prefix
+
+@mixin vui-outline-radius($radius: 5px) {
+  @include vui-prefix('outline-radius', $radius);
+}
+
+/// Double Borders
+/// @param {Color} $c1 [#3C3C3C] - Color One
+/// @param {Color} $c2 [#999999] - Color Two
+/// @param {Size} $radius [0] - Radius
+/// @require {mixin} vui-prefix
+/// @require {mixin} border-radius
+
+@mixin vui-double-borders($c1: '', $c2: '', $radius: 0) {
+  border: 1px solid $c1;
+  @include vui-prefix('box-shadow', 0 0 0 1px $c2);
+  @include border-radius($radius);
+}
+
+/// Triple Borders
+/// @param {Color} $c1 [#3C3C3C] - Color One
+/// @param {Color} $c2 [#999999] - Color Two
+/// @param {Color} $c3 [#000000] - Color Three
+/// @param {Size} $radius [0] - Radius
+/// @require {mixin} border-radius
+/// @require {mixin} css3-prefix
+
+@mixin vui-triple-borders($c1: '', $c2: '', $c3: '', $radius: 0) {
+  border: 1px solid $c1;
+  @include border-radius($radius);
+  @include vui-prefix('box-shadow', "0 0 0 1px #{$c2}, 0 0 0 2px #{$c3}");
+}

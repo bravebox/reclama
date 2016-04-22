@@ -1,0 +1,10 @@
+/// @vui-font-size
+/// @param {*} $size - Font size in px
+/// @require {mixin} scut-rem
+
+$scut-rem-base: vui-map-get('vui-font-rem');
+
+@mixin vui-font-size($size: 1.6) {
+  font-size: ($size * 10) + px;
+  font-size: scut-rem($size);
+}

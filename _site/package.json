@@ -1,0 +1,36 @@
+{
+  "name": "reclama",
+  "title": "Bravebox.io",
+  "description": "Minified/Autoprefixed SCSS output / bravebox.io",
+  "version": "1.0.0",
+  "homepage": "http://www.bravebox.io",
+  "author": {
+    "name": "Mick Schouten",
+    "email": "bravebox@gmail.com",
+    "url": "http://www.bravebox.io"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-header": "^1.7.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^6.1.0",
+    "gulp-shell": "^0.5.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "margins.css": "0.0.1",
+    "matchdep": "~0.1.2",
+    "modularscale-sass": "^2.1.1",
+    "padding.css": "0.0.1",
+    "run-sequence": "^1.1.5",
+    "spacing.css": "0.0.1",
+    "text-align.css": "0.0.3"
+  },
+  "keywords": []
+}

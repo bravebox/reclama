@@ -1,0 +1,19 @@
+// gets value from the base map fuction, for you own maps simply use map-get();
+/// @param {*} $property - Map property
+
+@function vui-map-get($property) {
+  @return map-get($vui-core, $property);
+}
+
+// adds a css3 prefix for values
+/// @param {*} $property - Property
+/// @param {*} $value - Value
+
+@mixin vui-prefix($property, $value) {
+  -webkit-#{$property}: #{$value};
+  -khtml-#{$property}: #{$value};
+  -moz-#{$property}: #{$value};
+  -ms-#{$property}: #{$value};
+  -o-#{$property}: #{$value};
+  #{$property}: #{$value};
+}
