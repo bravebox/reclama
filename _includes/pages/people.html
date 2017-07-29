@@ -1,0 +1,11 @@
+<div class="l-people">
+  {% for member in site.data.people | limit:12 %}
+  <div class="l-person js-tilt" data-kind="person" data-person-name="{{ member.name }}" data-person-position="{{ member.company_position }}">
+    <div class="l-person__title">
+      <h4>{{ member.name }}</h4>
+      <h5>{{ member.company_position }}</h5>
+    </div>
+    <div class="l-person__inner" style="background: url({{ member.avatar }}) center center; background-size: cover !important;"></div>
+  </div>
+  {% endfor %}
+</div>
